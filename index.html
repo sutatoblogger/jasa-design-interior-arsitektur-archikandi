@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jasa Desain Interior Surabaya & Arsitek Bersertifikasi Resmi | Archikandi</title>
-    <meta name="description" content="Bosan ditipu pemborong? Wujudkan hunian mewah & fungsional bersama Archikandi Design Project. Jasa desain interior Surabaya & arsitek resmi bersertifikasi SKA/STRA. Gratis konsultasi awal, budget fleksibel Paket A-D, & garansi konstruksi terima beres!">
-    <meta name="keywords" content="Jasa Desain Interior Surabaya, Kontraktor Interior Surabaya, Konsultan Arsitek Surabaya, Jasa Desain Interior Rumah Surabaya Timur, Desain Interior Kantor Surabaya Pusat, Ahli Desain Interior Mewah Surabaya Barat, Rancang Bangun Rumah Sidoarjo, Renovasi Rumah Gresik">
+    <title>Archikandi Design Project — Jasa Desain Interior & Arsitektur Surabaya</title>
+    
+    <meta name="description" content="Jangan biarkan rumah impian Anda hancur karena salah pilih tukang! Archikandi menyediakan Jasa Desain Interior & Arsitektur Surabaya Bersertifikasi Resmi. RAB Transparan, Gratis Konsultasi Awal, & Layanan Terima Beres. Amankan Paket Desain Anda Sekarang!">
+    <meta name="keywords" content="Jasa Desain Interior Surabaya, Kontraktor Interior Surabaya, Arsitek Surabaya, Desain Interior Mewah Surabaya, Rancang Bangun Sidoarjo, Renovasi Rumah Gresik, Archikandi Design Project">
     <meta name="author" content="Archikandi Design Project">
     <meta name="robots" content="index, follow">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
 
     <script type="application/ld+json">
     {
@@ -21,46 +28,47 @@
           "@type": "LocalBusiness",
           "@id": "https://jasa-design-interior-arsitektur-archikandi.vercel.app/#localbusiness",
           "name": "Archikandi Design Project",
-          "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+          "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop",
           "url": "https://jasa-design-interior-arsitektur-archikandi.vercel.app/",
           "telephone": "+6285648614694",
           "priceRange": "$$$",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Kecamatan Tambaksari",
+            "streetAddress": "Jl. Pacarkembang 5/33, Tambaksari",
             "addressLocality": "Surabaya",
             "addressRegion": "Jawa Timur",
-            "postalCode": "60131",
+            "postalCode": "60132",
             "addressCountry": "ID"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "-7.2524",
-            "longitude": "112.7583"
+            "latitude": "-7.2536",
+            "longitude": "112.7664"
           },
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday"
-            ],
-            "opens": "08:00",
-            "closes": "17:00"
-          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "08:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Saturday"],
+              "opens": "08:00",
+              "closes": "13:00"
+            }
+          ],
           "sameAs": [
-            "https://www.instagram.com/archikandi"
+            "https://archikandi.com"
           ]
         },
         {
           "@type": "WebPage",
           "@id": "https://jasa-design-interior-arsitektur-archikandi.vercel.app/#webpage",
           "url": "https://jasa-design-interior-arsitektur-archikandi.vercel.app/",
-          "name": "Jasa Desain Interior Surabaya & Arsitek Bersertifikasi Resmi | Archikandi",
-          "description": "Bosan ditipu pemborong? Wujudkan hunian mewah & fungsional bersama Archikandi Design Project.",
+          "name": "Archikandi Design Project — Jasa Desain Interior & Arsitektur Surabaya",
+          "description": "Jasa Desain Interior & Arsitektur Surabaya Bersertifikasi Resmi. RAB Transparan & Layanan Terima Beres.",
           "relatedLink": [
             "https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-tambaksari",
             "https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-tegalsari",
@@ -77,18 +85,42 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Berapa biaya jasa desain interior di Surabaya?",
+              "name": "Informasi apa saja yang perlu saya siapkan sebelum memulai desain?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Biaya sangat fleksibel menyesuaikan tingkat kerumitan dan luas area. Di Archikandi, kami menyediakan Paket A hingga D agar anggaran Anda tepat sasaran tanpa mengorbankan kualitas."
+                "text": "Beberapa informasi penting yang perlu Anda siapkan antara lain: Ukuran atau dimensi lahan, Lokasi dan peta situasi lahan, Anggaran yang Anda alokasikan untuk pembangunan, Kebutuhan ruang, serta Gaya arsitektur yang Anda sukai."
               }
             },
             {
               "@type": "Question",
-              "name": "Apakah melayani area luar Surabaya seperti Sidoarjo atau Gresik?",
+              "name": "Bagaimana jika saya belum tahu anggaran saya?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Tentu! Jangkauan layanan all-in-one kami mencakup seluruh area Gerbangkertosusila, dengan fokus pelayanan cepat untuk Sidoarjo, Gresik, hingga perbatasan Mojokerto."
+                "text": "Tidak masalah. Kami dapat membantu Anda memperkirakan anggaran berdasarkan kebutuhan ruang dan kompleksitas desain yang diinginkan agar tetap realistis."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah saya perlu membawa ide atau referensi desain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tidak wajib, tetapi jika Anda memiliki inspirasi atau referensi desain tertentu, akan sangat membantu kami memahami preferensi estetika ruang impian Anda."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Bagaimana jika saya memiliki anggaran yang terbatas?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kami akan membantu Anda menciptakan desain yang optimal sesuai dengan anggaran yang Anda miliki, tanpa mengorbankan kualitas struktur dan fungsionalitas ruang."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah saya perlu membayar biaya konsultasi awal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tidak! Kami menyediakan sesi konsultasi gratis di tahap awal untuk memahami kebutuhan unik Anda dan menjelaskan peta jalan proses kerja kami."
               }
             }
           ]
@@ -98,971 +130,670 @@
     </script>
 
     <style>
-        *, *::before, *::after {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        :root {
-            --bg-main: #090a0c;
-            --accent-indigo: #6b7cff;
-            --accent-cyan: #4fd1e0;
-            --text-primary: #ffffff;
-            --text-secondary: #8a8d98;
-            --glass-bg: rgba(255, 255, 255, 0.03);
-            --glass-border: rgba(255, 255, 255, 0.06);
-            --glass-glow: rgba(107, 124, 255, 0.1);
-            --font-heading: 'Geist', sans-serif;
-            --font-body: 'Inter', sans-serif;
-        }
-
-        html {
-            scroll-behavior: smooth;
-            background-color: var(--bg-main);
-            color: var(--text-primary);
-            font-family: var(--font-body);
-            -webkit-font-smoothing: antialiased;
-            overflow-x: hidden;
-        }
+        .font-geist { font-family: 'Geist', sans-serif !important; }
+        .font-inter { font-family: 'Inter', sans-serif !important; }
 
         body {
-            overflow-x: hidden;
-            line-height: 1.6;
+            background-color: #090a0c;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
         }
 
-        /* Typography Defaults */
-        h1, h2, h3 {
-            font-family: var(--font-heading);
-            letter-spacing: -0.04em;
-            font-weight: 700;
-        }
-
-        p {
-            color: var(--text-secondary);
-            font-size: 15px;
-            margin-bottom: 12px;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        /* Navigation Header */
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000;
+        /* Glassmorphism Luxury Rules */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.02);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            background: rgba(9, 10, 12, 0.7);
-            border-b: 1px solid var(--glass-border);
+            border: 1px solid rgba(255, 255, 255, 0.05);
         }
 
-        .nav-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 70px;
-        }
-
-        .logo {
-            font-family: var(--font-heading);
-            font-weight: 800;
-            font-size: 18px;
-            letter-spacing: -0.02em;
-            color: var(--text-primary);
-            text-decoration: none;
-        }
-
-        .logo span {
-            color: var(--accent-cyan);
-        }
-
-        .nav-menu {
-            display: flex;
-            gap: 32px;
-        }
-
-        .nav-link {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: color 0.3s ease;
-        }
-
-        .nav-link:hover {
-            color: var(--text-primary);
-        }
-
-        .nav-cta {
-            background: linear-gradient(135deg, var(--accent-indigo), var(--accent-cyan));
-            color: #000;
-            padding: 10px 20px;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 13px;
-            text-decoration: none;
-            letter-spacing: 0.02em;
-            transition: transform 0.3s ease;
-        }
-
-        .nav-cta:hover {
-            transform: scale(1.03);
-        }
-
-        /* Hero Section */
-        .hero {
+        /* Animated Gradient Pricing Plan Card (Aura Component 50833 Reference) */
+        .premium-card-active {
             position: relative;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding-top: 100px;
-            padding-bottom: 60px;
-            background: radial-gradient(circle at 50% 30%, rgba(107, 124, 255, 0.15), transparent 60%);
+            background: rgba(9, 10, 12, 0.8);
+            border: 1px solid transparent;
+            background-clip: padding-box;
         }
 
-        .hero-content {
-            text-align: center;
-            max-width: 850px;
-        }
-
-        .hero h1 {
-            font-size: clamp(32px, 5vw, 56px);
-            line-line: 1.1;
-            margin-bottom: 24px;
-            background: linear-gradient(to right, #fff, #a3a3a3);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .hero h1 span {
-            background: linear-gradient(135deg, var(--accent-indigo), var(--accent-cyan));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .hero p {
-            font-size: clamp(16px, 2vw, 19px);
-            line-height: 1.5;
-            max-width: 650px;
-            margin: 0 auto 36px auto;
-        }
-
-        /* Core Buttons & Pulse */
-        .btn-giant {
-            display: inline-block;
-            background: linear-gradient(135deg, #25d366, #128c7e);
-            color: #fff;
-            padding: 18px 36px;
-            border-radius: 12px;
-            font-size: 16px;
-            font-weight: 700;
-            text-decoration: none;
-            letter-spacing: 0.01em;
-            box-shadow: 0 0 20px rgba(37, 211, 102, 0.3);
-            animation: pulse-animation 2s infinite;
-            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-
-        .btn-giant:hover {
-            transform: translateY(-4px);
-        }
-
-        .btn-subtext {
-            display: block;
-            margin-top: 12px;
-            font-size: 12px;
-            color: var(--text-secondary);
-        }
-
-        @keyframes pulse-animation {
-            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4); }
-            70% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
-        }
-
-        /* Trust Badges */
-        .badges-wrapper {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            margin-top: 60px;
-            border-top: 1px solid var(--glass-border);
-            padding-top: 30px;
-            flex-wrap: wrap;
-        }
-
-        .badge-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 13px;
-            font-weight: 500;
-            color: var(--text-secondary);
-        }
-
-        .badge-item svg {
-            width: 20px;
-            height: 20px;
-            stroke: var(--accent-cyan);
-            fill: none;
-        }
-
-        /* Problem Section */
-        .problem {
-            padding: 100px 0;
-            background: #0d0e12;
-            border-y: 1px solid var(--glass-border);
-        }
-
-        .section-header {
-            max-width: 700px;
-            margin-bottom: 60px;
-        }
-
-        .section-header h2 {
-            font-size: clamp(26px, 4vw, 38px);
-            line-height: 1.2;
-            margin-bottom: 20px;
-        }
-
-        .problem-layout {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 24px;
-        }
-
-        /* Grid & Glassmorphism Cards */
-        .glass-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 24px;
-            margin-top: 40px;
-        }
-
-        .glass-card {
-            background: var(--glass-bg);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid var(--glass-border);
-            border-radius: 16px;
-            padding: 32px;
-            transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
-            will-change: transform;
-        }
-
-        .glass-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px var(--glass-glow);
-            border-color: rgba(107, 124, 255, 0.2);
-        }
-
-        .card-icon {
-            width: 48px;
-            height: 48px;
-            border-radius: 10px;
-            background: rgba(107, 124, 255, 0.1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 24px;
-        }
-
-        .card-icon svg {
-            width: 24px;
-            height: 24px;
-            stroke: var(--accent-indigo);
-            fill: none;
-        }
-
-        .glass-card h3 {
-            font-size: 20px;
-            margin-bottom: 14px;
-        }
-
-        /* Portfolio Grid Section */
-        .portfolio {
-            padding: 100px 0;
-        }
-
-        .portfolio-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 24px;
-            margin-top: 40px;
-        }
-
-        .portfolio-item {
-            position: relative;
-            border-radius: 16px;
-            overflow: hidden;
-            aspect-ratio: 4/3;
-            border: 1px solid var(--glass-border);
-        }
-
-        .portfolio-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
-        }
-
-        .portfolio-item:hover img {
-            transform: scale(1.06);
-        }
-
-        .portfolio-overlay {
+        .premium-card-active::before {
+            content: '';
             position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            padding: 24px;
-            background: linear-gradient(to top, rgba(9,10,12,0.9), transparent);
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
+            top: -1px; bottom: -1px; left: -1px; right: -1px;
+            z-index: -1;
+            border-radius: inherit;
+            background: linear-gradient(135deg, #6b7cff, #4fd1e0, #f97316);
+            animation: border-glow 6s linear infinite;
+            background-size: 300% 300%;
         }
 
-        .portfolio-overlay span {
-            font-size: 11px;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--accent-cyan);
-            margin-bottom: 4px;
+        @keyframes border-glow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
 
-        .portfolio-overlay h4 {
-            font-family: var(--font-heading);
-            font-size: 16px;
-            font-weight: 600;
-        }
-
-        /* Infinite Marquee Architecture */
-        .marquee-section {
-            padding: 80px 0;
-            background: #0d0e12;
+        /* Button Glowing & Shining Effect */
+        .btn-shine {
+            position: relative;
             overflow: hidden;
-            border-y: 1px solid var(--glass-border);
         }
 
-        .marquee-container {
-            display: flex;
-            width: max-content;
-            animation: marquee-scroll 25s linear infinite;
-            gap: 24px;
+        .btn-shine::after {
+            content: '';
+            position: absolute;
+            top: -50%; left: -60%;
+            width: 30%; height: 200%;
+            background: rgba(255, 255, 255, 0.25);
+            transform: rotate(25deg);
+            animation: shine-loop 3.5s infinite ease-in-out;
         }
 
-        .marquee-container:hover {
-            animation-play-state: paused;
+        @keyframes shine-loop {
+            0% { left: -60%; }
+            100% { left: 140%; }
         }
 
-        .testimonial-card {
-            width: 380px;
-            background: var(--glass-bg);
-            border: 1px solid var(--glass-border);
-            border-radius: 16px;
-            padding: 24px;
-        }
-
-        .testimonial-card p {
-            font-style: italic;
-            font-size: 14px;
-            line-height: 1.5;
-            margin-bottom: 16px;
-        }
-
-        .client-info {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .client-meta h5 {
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        .client-meta span {
-            font-size: 12px;
-            color: var(--text-secondary);
-        }
-
-        @keyframes marquee-scroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
-        }
-
-        /* FAQ & Voice SEO Module */
-        .faq-section {
-            padding: 100px 0;
-        }
-
-        .faq-layout {
-            max-width: 800px;
-            margin: 40px auto 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
-
-        .faq-card {
-            background: var(--glass-bg);
-            border: 1px solid var(--glass-border);
-            border-radius: 12px;
-            padding: 24px;
-        }
-
-        .faq-trigger {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 16px;
-            margin-bottom: 12px;
-        }
-
-        .faq-trigger h3 {
-            font-size: 16px;
-            line-height: 1.4;
-        }
-
-        .btn-voice {
-            background: rgba(79, 209, 224, 0.1);
-            border: 1px solid rgba(79, 209, 224, 0.2);
-            color: var(--accent-cyan);
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            flex-shrink: 0;
-        }
-
-        .btn-voice:hover {
-            background: var(--accent-cyan);
-            color: #000;
-        }
-
+        /* Voice Speaker Animation Overlay */
         .btn-voice.speaking {
-            animation: voice-pulse 1s infinite alternate;
+            animation: wave-pulse 1s infinite alternate cubic-bezier(0.45, 0, 0.55, 1);
+            background: #4fd1e0 !important;
+            color: #090a0c !important;
         }
 
-        @keyframes voice-pulse {
-            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(79, 209, 224, 0.4); }
-            100% { transform: scale(1.1); box-shadow: 0 0 0 10px rgba(79, 209, 224, 0); }
+        @keyframes wave-pulse {
+            0% { box-shadow: 0 0 0 0 rgba(79, 209, 224, 0.5); transform: scale(1); }
+            100% { box-shadow: 0 0 0 12px rgba(79, 209, 224, 0); transform: scale(1.06); }
         }
 
-        /* White-Hat LSI Tags */
-        .lsi-tags {
-            margin-top: 60px;
-            border-top: 1px solid var(--glass-border);
-            padding-top: 30px;
-            text-align: center;
-        }
-
-        .lsi-title {
-            font-size: 13px;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--text-secondary);
-            margin-bottom: 16px;
-        }
-
-        .tag-cloud {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .tag-cloud a {
-            background: rgba(255,255,255,0.02);
-            border: 1px solid var(--glass-border);
-            padding: 6px 14px;
-            border-radius: 50px;
-            font-size: 12px;
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .tag-cloud a:hover {
-            color: var(--text-primary);
-            border-color: var(--accent-indigo);
-            background: rgba(107, 124, 255, 0.05);
-        }
-
-        /* Closing Section */
-        .closing {
-            padding: 120px 0;
-            background: radial-gradient(circle at 50% 70%, rgba(79, 209, 224, 0.1), transparent 50%);
-            text-align: center;
-        }
-
-        .closing h2 {
-            font-size: clamp(28px, 5vw, 44px);
-            max-width: 800px;
-            margin: 0 auto 24px auto;
-            line-height: 1.2;
-        }
-
-        .closing p {
-            font-size: 16px;
-            max-width: 600px;
-            margin: 0 auto 40px auto;
-        }
-
-        /* Footer Frame */
-        footer {
-            background: #050608;
-            border-top: 1px solid var(--glass-border);
-            padding: 60px 0 30px 0;
-        }
-
-        .footer-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
-            margin-bottom: 40px;
-        }
-
-        .footer-logo {
-            font-family: var(--font-heading);
-            font-weight: 800;
-            font-size: 22px;
-            color: #fff;
-            margin-bottom: 16px;
-        }
-
-        .footer-logo span {
-            color: var(--accent-cyan);
-        }
-
-        .footer-title {
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-bottom: 20px;
-            color: #fff;
-        }
-
-        .footer-links {
-            list-style: none;
-        }
-
-        .footer-links li {
-            margin-bottom: 10px;
-        }
-
-        .footer-links a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 14px;
-            transition: color 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            color: var(--text-primary);
-        }
-
-        .credit-line {
-            text-align: center;
-            padding-top: 30px;
-            border-top: 1px solid var(--glass-border);
-            font-size: 12px;
-            color: var(--text-secondary);
-        }
-
-        .credit-line a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            border-b: 1px solid rgba(255,255,255,0.2);
-        }
-
-        .credit-line a:hover {
-            color: var(--text-primary);
-        }
-
-        /* Micro-JS Animation Trigger Class */
-        .reveal-element {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 1s ease, transform 1s ease;
-        }
-
-        .reveal-element.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Mobile Adjustments Optimization */
-        @media (max-width: 768px) {
-            .nav-menu { display: none; }
-            .hero { padding-top: 120px; }
-            .badges-wrapper { gap: 20px; }
-        }
+        /* Hide Scrollbar for Marquee Track */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
     </style>
 </head>
-<body>
+<body class="antialiased overflow-x-hidden">
 
-    <header>
-        <div class="container nav-container">
-            <a href="#" class="logo">ARCHIKANDI<span>.</span></a>
-            <nav class="nav-menu">
-                <a href="#problem" class="nav-link">Masalah Lapangan</a>
-                <a href="#solusi" class="nav-link">Solusi Kami</a>
-                <a href="#layanan" class="nav-link">Layanan</a>
-                <a href="#portfolio" class="nav-link">Portofolio</a>
-                <a href="#faq" class="nav-link">FAQ</a>
-            </nav>
-            <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20ingin%20Free%20Konsultasi%20untuk%20Jasa%20Desain%20Interior%20di%20Surabaya" class="nav-cta" target="_blank" rel="noopener noreferrer">KONSULTASI GRATIS</a>
-        </div>
+    <header class="fixed top-0 inset-x-0 z-50 backdrop-blur-xl bg-[#090a0c]/50 border-b border-white/5">
+        <nav class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-base font-bold tracking-tight font-geist text-white">
+                ARCHIKANDI<span class="text-orange-500">.</span>
+            </a>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#problem" class="text-sm text-white/60 hover:text-white transition-colors font-geist">Problem</a>
+                <a href="#layanan" class="text-sm text-white/60 hover:text-white transition-colors font-geist">Layanan</a>
+                <a href="#paket" class="text-sm text-white/60 hover:text-white transition-colors font-geist">Pilihan Paket</a>
+                <a href="#portfolio" class="text-sm text-white/60 hover:text-white transition-colors font-geist">Selected Work</a>
+                <a href="#faq" class="text-sm text-white/60 hover:text-white transition-colors font-geist">FAQ</a>
+            </div>
+            <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20ingin%20Free%20Konsultasi%20untuk%20Jasa%20Desain%20Interior%20di%20Surabaya" target="_blank" rel="noopener noreferrer" class="btn-shine inline-flex items-center gap-2 text-xs font-semibold tracking-[0.15em] bg-white text-[#090a0c] rounded-full px-6 py-3 hover:bg-orange-500 hover:text-white transition-all duration-300 font-geist">
+                FREE KONSULTASI
+            </a>
+        </nav>
     </header>
 
-    <section class="hero">
-        <div class="container hero-content">
-            <h1>Jangan Biarkan Rumah Impian Anda Jadi <span>Bencana Konstruksi</span>. Bangun Bersama Arsitek Bersertifikasi!</h1>
-            <p>Bosan dengan janji manis pemborong abal-abal yang ujung-ujungnya overbudget? Waktunya beralih ke Archikandi. Kami urus semuanya: dari coretan desain, perizinan PBG yang ribet, hingga serah terima kunci. Anda cukup duduk manis.</p>
+    <section id="hero" class="relative min-h-screen flex flex-col justify-end overflow-hidden pt-32 pb-20">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1920&auto=format&fit=crop" class="w-full h-full object-cover opacity-25" alt="Luxury Interior Architecture">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#090a0c] via-[#090a0c]/60 to-transparent"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-6 w-full text-center mb-12">
+            <h1 class="text-[8vw] md:text-[5vw] leading-[0.9] tracking-tighter font-geist font-bold mb-6 max-w-5xl mx-auto">
+                Jangan Biarkan Rumah Impian Anda Jadi <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#6b7cff] to-[#4fd1e0]">Bencana Konstruksi.</span>
+            </h1>
+            <p class="text-sm md:text-base text-white/50 max-w-2xl mx-auto mb-8 font-inter">
+                Bosan dengan janji manis pemborong abal-abal yang ujung-ujungnya overbudget? Waktunya beralih ke Archikandi. Kami urus semuanya dari coretan desain, perizinan PBG yang ribet, hingga serah terima kunci.
+            </p>
+            <div class="mb-10">
+                <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20ingin%20Free%20Konsultasi%20untuk%20Jasa%20Desain%20Interior%20di%20Surabaya" target="_blank" rel="noopener noreferrer" class="btn-shine inline-block bg-gradient-to-r from-[#6b7cff] to-[#4fd1e0] text-[#090a0c] font-bold text-sm tracking-wider px-8 py-4 rounded-xl shadow-xl shadow-indigo-500/10 transition-transform duration-300 hover:scale-[1.02]">
+                    KLAIM KONSULTASI GRATIS SAYA SEKARANG!
+                </a>
+                <span class="block text-xs text-white/30 mt-3 font-inter">Slot terbatas untuk 5 klien pertama minggu ini. 100% Tanpa Biaya Tersembunyi.</span>
+            </div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6 w-full border-t border-white/5 pt-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+            <div class="flex items-start gap-4">
+                <span class="text-xs font-semibold tracking-widest text-[#4fd1e0] font-geist">01 //</span>
+                <div>
+                    <h3 class="text-sm font-semibold font-geist text-white">Arsitek Resmi Bersertifikasi</h3>
+                    <p class="text-xs text-white/40 mt-1">Perencanaan spasial dikerjakan langsung oleh tenaga ahli bersertifikat resmi SKA/STRA.</p>
+                </div>
+            </div>
+            <div class="flex items-start gap-4">
+                <span class="text-xs font-semibold tracking-widest text-[#6b7cff] font-geist">02 //</span>
+                <div>
+                    <h3 class="text-sm font-semibold font-geist text-white">Layanan Terpadu All-in-One</h3>
+                    <p class="text-xs text-white/40 mt-1">Solusi komprehensif mulai dari konsep visual, pengurusan perizinan, hingga pelaksanaan konstruksi.</p>
+                </div>
+            </div>
+            <div class="flex items-start gap-4">
+                <span class="text-xs font-semibold tracking-widest text-orange-500 font-geist">03 //</span>
+                <div>
+                    <h3 class="text-sm font-semibold font-geist text-white">Desain Personal & Custom</h3>
+                    <p class="text-xs text-white/40 mt-1">Estetika adaptif yang disesuaikan secara presisi dengan kebutuhan ruang, gaya hidup, dan anggaran.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem" class="py-24 border-y border-white/5 bg-[#0c0d10]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-12 gap-12 items-start">
+                <div class="md:col-span-4 sticky top-28">
+                    <span class="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] text-orange-500 font-geist mb-4">
+                        <i data-lucide="alert-circle" class="w-4 h-4" aria-hidden="true"></i> FAKTA LAPANGAN
+                    </span>
+                    <h2 class="text-3xl font-bold font-geist tracking-tighter leading-tight text-white">
+                        Membangun di Surabaya Itu Keras Kalau Salah Pilih Tukang!
+                    </h2>
+                </div>
+                <div class="md:col-span-8 space-y-6 text-white/60 font-inter text-sm md:text-base leading-relaxed">
+                    <p>
+                        Lahan di area padat seperti Tambaksari, Gubeng, hingga kawasan niaga Surabaya Utara kian hari makin terbatas. Masalah klasiknya: cuaca yang sangat panas menyengat. Jika tata letak bangunan dirancang asal-asalan tanpa ilmu arsitektur yang benar, sirkulasi udara di dalam rumah akan mati total.
+                    </p>
+                    <p class="border-l-2 border-[#6b7cff] pl-4 italic bg-white/[0.01] py-3 rounded-r-lg text-white/80">
+                        "Jangan tunggu sampai rumah Anda terasa sumpek, pengap, kurang cahaya matahari, dan membuat seluruh anggota keluarga gampang stres akibat tata ruang yang keliru."
+                    </p>
+                    <p>
+                        Belum lagi bayang-bayang risiko penipuan oleh oknum kontraktor atau pemborong amatir. Penawaran harga di awal sengaja dibuat sangat murah agar Anda tergiur. Begitu proyek berjalan setengah jalan, mereka mulai menuntut biaya tambahan siluman dengan berbagai alasan yang dipaksakan. Hasil akhirnya? Tabungan puluhan juta Anda habis, sementara struktur dinding rumah baru beberapa bulan sudah retak rambut dan rembes air.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-16">
+                <span class="text-xs tracking-[0.25em] text-white/40 font-geist block mb-2">[ SOLUSI RUANG IMPIAN ]</span>
+                <h2 class="text-3xl md:text-4xl font-bold font-geist tracking-tighter text-white">Apa Saja yang Bisa Kami Bantu Wujudkan?</h2>
+            </div>
             
-            <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20ingin%20Free%20Konsultasi%20untuk%20Jasa%20Desain%20Interior%20di%20Surabaya" class="btn-giant" target="_blank" rel="noopener noreferrer">🚀 KLAIM KONSULTASI GRATIS SAYA SEKARANG!</a>
-            <span class="btn-subtext">Slot terbatas untuk 5 klien pertama minggu ini. 100% Tanpa Biaya Tersembunyi.</span>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="glass-panel rounded-2xl p-8 transition-all duration-500 hover:-translate-y-2 hover:border-[#6b7cff]/30">
+                    <div class="w-12 h-12 rounded-xl bg-[#6b7cff]/10 flex items-center justify-center mb-6">
+                        <i data-lucide="layers" class="w-6 h-6 text-[#6b7cff]" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-lg font-bold font-geist text-white mb-3">Jasa Desain Interior</h3>
+                    <p class="text-xs md:text-sm text-white/50 leading-relaxed font-inter">
+                        Menyulap ruang terbatas menjadi fungsional dan bernilai estetika tinggi. Dari penataan layout living room, kitchen set modular mewah, hingga interior kantor modern yang meningkatkan produktivitas kerja.
+                    </p>
+                </div>
 
-            <div class="badges-wrapper">
-                <div class="badge-item">
-                    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5"><path d="M9 12l2 2 4-4m5 .5a9.7 9.7 0 11-19 0 9.7 9.7 0 0119 0z"/></svg>
-                    <span>Arsitek Resmi Bersertifikat (SKA/STRA)</span>
+                <div class="glass-panel rounded-2xl p-8 transition-all duration-500 hover:-translate-y-2 hover:border-[#4fd1e0]/30">
+                    <div class="w-12 h-12 rounded-xl bg-[#4fd1e0]/10 flex items-center justify-center mb-6">
+                        <i data-lucide="compass" class="w-6 h-6 text-[#4fd1e0]" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-lg font-bold font-geist text-white mb-3">Konsultan Jasa Arsitek</h3>
+                    <p class="text-xs md:text-sm text-white/50 leading-relaxed font-inter">
+                        Merancang fasad bangunan ikonik dengan perhitungan cross-ventilation yang cermat. Memastikan rumah tinggal Anda tetap sejuk melimpah pencahayaan alami walau cuaca luar sedang terik-teriknya.
+                    </p>
                 </div>
-                <div class="badge-item">
-                    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5m0 0V11m0 0H9m3 0h3m-3 4h3m-6 0h.01M9 16h.01"/></svg>
-                    <span>50+ Proyek Selesai Segala Skala</span>
-                </div>
-                <div class="badge-item">
-                    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5"><path d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
-                    <span>Transparansi Sempurna RAB Tanpa Drama</span>
+
+                <div class="glass-panel rounded-2xl p-8 transition-all duration-500 hover:-translate-y-2 hover:border-orange-500/30">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center mb-6">
+                        <i data-lucide="hammer" class="w-6 h-6 text-orange-500" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-lg font-bold font-geist text-white mb-3">Jasa Renovasi & Bangun Baru</h3>
+                    <p class="text-xs md:text-sm text-white/50 leading-relaxed font-inter">
+                        Eksekusi total perombakan bangunan tua peninggalan masa lalu menjadi hunian berkonsep modern sehat. Tim teknik lapangan kami menjamin ketepatan spesifikasi material bangunan sesuai standar RAB tanpa deviasi.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="problem" class="problem">
-        <div class="container">
-            <div class="section-header reveal-element">
-                <h2>Fakta Lapangan: Membangun di Surabaya & Sekitarnya Itu Keras Kalau Salah Pilih Tukang!</h2>
-                <p>Lahan di kota besar seperti Surabaya makin sempit dan cuaca kian terik. Banyak pemilik bangunan mengabaikan faktor krusial lingkungan demi mengejar harga konstruksi murah di awal.</p>
-                <p>Akibatnya fatal. Jika tata letak interior dan arsitektur rumah salah, sirkulasi udara mati. Rumah terasa sumpek, lembab, pengap, dan membuat seluruh penghuni rentan mengalami stres psikologis saat beraktivitas di dalam ruangan.</p>
-                <p>Belum lagi tingginya risiko kerugian akibat pemborong tidak jujur. Harga penawaran awal sengaja ditekan agar terlihat murah, namun di tengah jalan mereka menuntut tambahan dana ini itu dengan alasan di luar kendali. Hasil akhirnya mengecewakan: tembok baru sebulan serah terima sudah mengalami retak rambut dan struktur rembes. Yakin mau mengambil risiko mempertaruhkan tabungan hidup Anda?</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="solusi" class="solusi" style="padding: 100px 0;">
-        <div class="container">
-            <div class="section-header reveal-element">
-                <h2>Archikandi Design Project: Solusi Rancang Bangun 'All-In-One' Anti-Pusing</h2>
-                <p>Kami hadir memotong seluruh birokrasi dan kekhawatiran Anda melalui tata kelola arsitektur modern yang profesional terintegrasi.</p>
+    <section id="paket" class="py-24 bg-[#0c0d10] border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-xs tracking-[0.25em] text-[#4fd1e0] font-geist block mb-2">[ TRANSPARANSI BIAYA ]</span>
+                <h2 class="text-3xl md:text-4xl font-bold font-geist tracking-tighter text-white max-w-xl mx-auto">Pilihan Paket Rancang Bangun Yang Fleksibel</h2>
             </div>
 
-            <div class="glass-grid">
-                <div class="glass-card reveal-element">
-                    <div class="card-icon">
-                        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M16.88 3.549L20.451 7.12l-11.6 11.6H5.28v-3.572l11.6-11.6zm0 0L14.2 6.23M14 21h7"/></svg>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+                <div class="glass-panel rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 hover:scale-[1.01]">
+                    <div>
+                        <h3 class="text-sm font-semibold tracking-widest text-white/40 font-geist uppercase mb-2">PAKET A</h3>
+                        <div class="h-px bg-white/5 my-4"></div>
+                        <ul class="space-y-3 text-xs text-white/70 font-inter">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Gambar situasi (Layout/siteplan)</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Denah</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Perspektif 3 Dimensi</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Konsultasi Arsitek</li>
+                            <li class="flex items-center gap-2 text-orange-400"><i data-lucide="info" class="w-3.5 h-3.5"></i> Max. 3x Revisi Minor</li>
+                        </ul>
                     </div>
-                    <h3>Arsitek Resmi Bersertifikasi (SKA/STRA)</h3>
-                    <p>Bukan sekadar tukang gambar biasa. Seluruh kalkulasi pembebanan struktur bangunan dihitung presisi untuk memastikan ketahanan puluhan tahun, aman dari risiko dinding retak, dan sepenuhnya patuh pada standar tata kota Indonesia.</p>
+                    <div class="mt-8">
+                        <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20tertarik%20dengan%20Paket%20A%20Jasa%20Desain%20Interior%20Surabaya" target="_blank" rel="noopener noreferrer" class="block text-center text-xs font-bold tracking-widest bg-white/5 border border-white/10 text-white rounded-xl py-3 hover:bg-white hover:text-[#090a0c] transition-all duration-300 font-geist">
+                            HUBUNGI KAMI
+                        </a>
+                    </div>
                 </div>
 
-                <div class="glass-card reveal-element">
-                    <div class="card-icon">
-                        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 11c-1.11 0-2.08-.402-2.599-1M12 18v1m4-13H8a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2z"/></svg>
+                <div class="glass-panel rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 hover:scale-[1.01]">
+                    <div>
+                        <h3 class="text-sm font-semibold tracking-widest text-white/40 font-geist uppercase mb-2">PAKET B</h3>
+                        <div class="h-px bg-white/5 my-4"></div>
+                        <ul class="space-y-3 text-xs text-white/70 font-inter">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Gambar Situasi (Layout/siteplan)</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Denah</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Perspektif 3 Dimensi</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Tampak Bangunan</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Potongan Bangunan</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Konsultasi Arsitek</li>
+                            <li class="flex items-center gap-2 text-orange-400"><i data-lucide="info" class="w-3.5 h-3.5"></i> Max. 3x Revisi Minor</li>
+                        </ul>
                     </div>
-                    <h3>Desain Custom Sesuai Budget</h3>
-                    <p>Mewah tidak selalu diartikan mahal. Tim desainer kami piawai meracik estetika ruang premium yang disesuaikan secara personal dengan gaya hidup, fungsi spasial, dan kesiapan finansial Anda melalui pilihan skema Paket Fleksibel A hingga D.</p>
+                    <div class="mt-8">
+                        <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20tertarik%20dengan%20Paket%20B%20Jasa%20Desain%20Interior%20Surabaya" target="_blank" rel="noopener noreferrer" class="block text-center text-xs font-bold tracking-widest bg-white/5 border border-white/10 text-white rounded-xl py-3 hover:bg-white hover:text-[#090a0c] transition-all duration-300 font-geist">
+                            HUBUNGI KAMI
+                        </a>
+                    </div>
                 </div>
 
-                <div class="glass-card reveal-element">
-                    <div class="card-icon">
-                        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5 .5a9.7 9.7 0 11-19 0 9.7 9.7 0 0119 0z"/></svg>
+                <div class="premium-card-active rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 hover:scale-[1.02] shadow-2xl shadow-indigo-500/10">
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-sm font-bold tracking-widest text-[#4fd1e0] font-geist uppercase">PAKET C</h3>
+                            <span class="text-[10px] bg-[#6b7cff]/20 text-[#6b7cff] font-bold px-2 py-0.5 rounded-full tracking-wide">POPULER</span>
+                        </div>
+                        <div class="h-px bg-white/10 my-4"></div>
+                        <ul class="space-y-2.5 text-xs text-white/90 font-inter">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Gambar Situasi & Denah</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Perspektif 3D & Tampak</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Detail Atap, Kusen, Lantai</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Detail Pondasi, Kolom & Balok</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Saluran Air Bersih & Kotor</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Detail Kelistrikan</li>
+                            <li class="flex items-center gap-2 text-[#4fd1e0] font-medium"><i data-lucide="file-text" class="w-3.5 h-3.5"></i> Rencana Anggaran Biaya (RAB)</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Konsultasi Arsitek</li>
+                            <li class="flex items-center gap-2 text-orange-400"><i data-lucide="info" class="w-3.5 h-3.5"></i> Max. 3x Revisi Minor</li>
+                        </ul>
                     </div>
-                    <h3>Terima Beres (Perizinan s/d Konstruksi)</h3>
-                    <p>Anda tidak perlu membuang waktu produktif untuk antre di kantor dinas mengurus izin bangunan (PBG). Tim legal dan engineer kami menghandle seluruh alur birokrasi teknis dari nol sampai fisik bangunan berdiri tegak secara legal.</p>
+                    <div class="mt-8">
+                        <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20tertarik%20dengan%20Paket%20C%20Rancang%20Bangun%20All-in-One%20Surabaya" target="_blank" rel="noopener noreferrer" class="btn-shine block text-center text-xs font-bold tracking-widest bg-gradient-to-r from-[#6b7cff] to-[#4fd1e0] text-[#090a0c] rounded-xl py-3 transition-all duration-300 hover:opacity-90 font-geist">
+                            HUBUNGI KAMI
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="layanan" style="padding: 100px 0; background: #0d0e12; border-y: 1px solid var(--glass-border);">
-        <div class="container">
-            <div class="section-header reveal-element">
-                <h2>Apa Saja yang Bisa Kami Bantu Wujudkan?</h2>
-                <p>Dari perencanaan ruang hingga eksekusi akhir, kami menyediakan ekosistem arsitektur spasial yang komprehensif.</p>
-            </div>
-
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-top: 40px;">
-                <div class="reveal-element">
-                    <h3 style="font-size: 22px; margin-bottom: 12px; color: var(--accent-cyan);">Jasa Desain Interior</h3>
-                    <p>Menyulap ruang sempit yang terbatas menjadi lingkungan yang fungsional, lega, dan estetis. Kami merancang area ruang tamu, master bedroom, kitchen set ergonomis, hingga ruang kantor korporat yang mampu meningkatkan produktivitas karyawan secara signifikan.</p>
-                </div>
-                <div class="reveal-element">
-                    <h3 style="font-size: 22px; margin-bottom: 12px; color: var(--accent-indigo);">Konsultan Jasa Arsitek</h3>
-                    <p>Merancang fasad modern eksterior, penataan layout ruangan yang efisien, dan penerapan ventilasi silang (cross-ventilation) yang cermat. Menjamin sirkulasi udara rumah Anda tetap sejuk dan melimpah cahaya alami meski cuaca Surabaya sedang terik.</p>
-                </div>
-                <div class="reveal-element">
-                    <h3 style="font-size: 22px; margin-bottom: 12px; color: var(--accent-cyan);">Jasa Renovasi & Rancang Bangun</h3>
-                    <p>Punya bangunan tua peninggalan masa lalu yang ingin dirombak total menjadi modern minimalis? Atau berencana membangun rumah baru dari tanah kavling kosong? Tim kontraktor lapangan kami siap mengeksekusi cetak biru desain menjadi wujud nyata yang kokoh presisi.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="section-header reveal-element">
-                <h2>Bukti Nyata Hasil Kerja Lapangan, Bukan Sekadar Render 3D Gambar Digital!</h2>
-                <p>Kami meyakini transparansi portofolio fisik adalah kunci membangun kepercayaan jangka panjang bersama klien.</p>
-            </div>
-
-            <div class="portfolio-grid">
-                <div class="portfolio-item reveal-element">
-                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=600&auto=format&fit=crop" alt="Spesialis Jasa Desain Interior Rumah Surabaya Timur Gubeng">
-                    <div class="portfolio-overlay">
-                        <span>Renovasi Hunian</span>
-                        <h4>Modern Living Tambaksari</h4>
+                <div class="glass-panel rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 hover:scale-[1.01]">
+                    <div>
+                        <h3 class="text-sm font-semibold tracking-widest text-white/40 font-geist uppercase mb-2">PAKET D</h3>
+                        <div class="h-px bg-white/5 my-4"></div>
+                        <ul class="space-y-2 text-xs text-white/70 font-inter">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Dokumen Paket C Lengkap</li>
+                            <li class="flex items-center gap-2 text-[#6b7cff] font-medium"><i data-lucide="activity" class="w-3.5 h-3.5"></i> Perhitungan Struktur Teknis</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Rencana Kerja & Syarat (RKS)</li>
+                            <li class="flex items-center gap-2 text-[#4fd1e0] font-medium"><i data-lucide="video" class="w-3.5 h-3.5"></i> Animasi Bangunan 3D Video</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-[#4fd1e0]"></i> Konsultasi Arsitek</li>
+                            <li class="flex items-center gap-2 text-orange-400"><i data-lucide="info" class="w-3.5 h-3.5"></i> Max. 3x Revisi Minor</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="portfolio-item reveal-element">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600&auto=format&fit=crop" alt="Biro Desain Interior Kantor Urus Perizinan Surabaya Pusat Tegalsari">
-                    <div class="portfolio-overlay">
-                        <span>Interior Kantor</span>
-                        <h4>Ruang Kreatif Tegalsari</h4>
-                    </div>
-                </div>
-                <div class="portfolio-item reveal-element">
-                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=600&auto=format&fit=crop" alt="Konsultan Jasa Arsitek Konstruksi Bangunan Surabaya Selatan Wiyung">
-                    <div class="portfolio-overlay">
-                        <span>Konstruksi Arsitektur</span>
-                        <h4>Villa Tropis Wiyung</h4>
-                    </div>
-                </div>
-                <div class="portfolio-item reveal-element">
-                    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=600&auto=format&fit=crop" alt="Ahli Desain Interior Mewah Eksklusif Surabaya Barat Lakarsantri">
-                    <div class="portfolio-overlay">
-                        <span>Quiet Luxury</span>
-                        <h4>Residensi Premium Sambikerep</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="marquee-section">
-        <div class="marquee-container">
-            <div class="testimonial-card">
-                <p>"Awalnya ragu karena mikir pakai arsitek resmi pasti mahal dan rumit. Ternyata di Archikandi transparansi RAB-nya luar biasa detail. Gak ada biaya siluman di tengah jalan. Rumah keluarga kami di Tambaksari sekarang jadi terasa luas, sejuk, dan lega sekali!"</p>
-                <div class="client-info">
-                    <div class="client-meta">
-                        <h5>Bpk. Hendra Kurniawan</h5>
-                        <span>Pemilik Rumah, Tambaksari</span>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <p>"Sangat terbantu dengan layanan All-in-One mereka. Dari pengurusan perizinan bangunan PBG kantor ruko kami di daerah Tegalsari hingga tata interior ruang kerja karyawan, semuanya dihandle beres tepat waktu tanpa kami perlu pusing birokrasi."</p>
-                <div class="client-info">
-                    <div class="client-meta">
-                        <h5>Ibu Linda Wijaya</h5>
-                        <span>Direktur Operasional, Surabaya Pusat</span>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <p>"Eksekusi struktur bangunan di area Wiyung sangat rapi dan presisi. Material yang digunakan sesuai kesepakatan kontrak awal. Hasil akhir pengerjaan dinding dan sirkulasi udara rumah sangat memuaskan, terbukti sejuk tanpa banyak AC."</p>
-                <div class="client-info">
-                    <div class="client-meta">
-                        <h5>Bpk. Dr. Santoso</h5>
-                        <span>Pemilik Villa, Surabaya Selatan</span>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <p>"Awalnya ragu karena mikir pakai arsitek resmi pasti mahal dan rumit. Ternyata di Archikandi transparansi RAB-nya luar biasa detail. Gak ada biaya siluman di tengah jalan. Rumah keluarga kami di Tambaksari sekarang jadi terasa luas, sejuk, dan lega sekali!"</p>
-                <div class="client-info">
-                    <div class="client-meta">
-                        <h5>Bpk. Hendra Kurniawan</h5>
-                        <span>Pemilik Rumah, Tambaksari</span>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <p>"Sangat terbantu dengan layanan All-in-One mereka. Dari pengurusan perizinan bangunan PBG kantor ruko kami di daerah Tegalsari hingga tata interior ruang kerja karyawan, semuanya dihandle beres tepat waktu tanpa kami perlu pusing birokrasi."</p>
-                <div class="client-info">
-                    <div class="client-meta">
-                        <h5>Ibu Linda Wijaya</h5>
-                        <span>Direktur Operasional, Surabaya Pusat</span>
+                    <div class="mt-8">
+                        <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20tertarik%20dengan%20Paket%20D%20Konsultan%20Arsitek%20Bersertifikasi%20Gresik" target="_blank" rel="noopener noreferrer" class="block text-center text-xs font-bold tracking-widest bg-white/5 border border-white/10 text-white rounded-xl py-3 hover:bg-white hover:text-[#090a0c] transition-all duration-300 font-geist">
+                            HUBUNGI KAMI
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="closing">
-        <div class="container reveal-element">
-            <h2>Siap Mengubah Cerita di Setiap Sudut Ruang Anda?</h2>
-            <p>Jangan tunggu sampai musim hujan datang dan atap hunian lama Anda mulai bocor merusak interior. Jangan tunggu sampai stres menumpuk akibat salah perhitungan anggaran konstruksi mandiri. Amankan slot konsultasi Anda bersama tim arsitek ahli bersertifikasi kami hari ini!</p>
-            
-            <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20ingin%20Free%20Konsultasi%20untuk%20Jasa%20Desain%20Interior%20di%20Surabaya" class="btn-giant" target="_blank" rel="noopener noreferrer">📲 CHAT VIA WHATSAPP - GRATIS KONSULTASI AWAL Sekarang</a>
+    <section id="portfolio" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16">
+                <div>
+                    <span class="text-xs tracking-[0.25em] text-white/40 font-geist block mb-2">[ SELECTED WORK ]</span>
+                    <h2 class="text-3xl md:text-4xl font-bold font-geist tracking-tighter text-white">Dokumentasi Realisasi Lapangan</h2>
+                </div>
+                <div class="text-xs text-white/40 tracking-[0.2em] font-geist">BUKTI NYATA // BUKAN SEKADAR ANIMASI</div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="group relative rounded-2xl overflow-hidden aspect-[3/4] border border-white/5 bg-white/5">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Spesialis Jasa Desain Interior Rumah Surabaya Timur Gubeng">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#090a0c] via-transparent to-transparent opacity-90"></div>
+                    <div class="absolute bottom-6 left-6 right-6">
+                        <span class="text-[10px] tracking-widest text-[#4fd1e0] font-geist uppercase block mb-1">Surabaya Timur</span>
+                        <h4 class="text-sm font-bold font-geist text-white">Villa Minimalis Tambaksari</h4>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden aspect-[3/4] border border-white/5 bg-white/5">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Biro Desain Interior Kantor Urus Perizinan Surabaya Pusat Tegalsari">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#090a0c] via-transparent to-transparent opacity-90"></div>
+                    <div class="absolute bottom-6 left-6 right-6">
+                        <span class="text-[10px] tracking-widest text-[#6b7cff] font-geist uppercase block mb-1">Surabaya Pusat</span>
+                        <h4 class="text-sm font-bold font-geist text-white">Office Space Tegalsari</h4>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden aspect-[3/4] border border-white/5 bg-white/5">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Konsultan Jasa Arsitek Konstruksi Bangunan Surabaya Selatan Wiyung">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#090a0c] via-transparent to-transparent opacity-90"></div>
+                    <div class="absolute bottom-6 left-6 right-6">
+                        <span class="text-[10px] tracking-widest text-orange-500 font-geist uppercase block mb-1">Surabaya Selatan</span>
+                        <h4 class="text-sm font-bold font-geist text-white">Modern Residence Wiyung</h4>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden aspect-[3/4] border border-white/5 bg-white/5">
+                    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Ahli Desain Interior Mewah Eksklusif Surabaya Barat Lakarsantri">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#090a0c] via-transparent to-transparent opacity-90"></div>
+                    <div class="absolute bottom-6 left-6 right-6">
+                        <span class="text-[10px] tracking-widest text-[#4fd1e0] font-geist uppercase block mb-1">Surabaya Barat</span>
+                        <h4 class="text-sm font-bold font-geist text-white">Quiet Luxury Sambikerep</h4>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="faq" class="faq-section" style="background: #0d0e12; border-top: 1px solid var(--glass-border);">
-        <div class="container">
-            <div class="section-header reveal-element" style="margin: 0 auto text-align: center;">
-                <h2>Pencarian Terkait & FAQ Singkat</h2>
-                <p>Gunakan modul suara pintar kami untuk mendengarkan jawaban interaktif berbasis pencarian suara.</p>
+    <section class="py-16 bg-[#0c0d10] border-y border-white/5 overflow-hidden">
+        <div id="marqueeTrack" class="flex gap-6 overflow-x-auto no-scrollbar whitespace-nowrap px-6" style="width: max-content;">
+            <div class="glass-panel rounded-2xl p-6 w-[400px] whitespace-normal inline-block">
+                <p class="text-xs md:text-sm text-white/70 italic font-inter mb-4">"Awalnya ragu karena mikir pakai arsitek resmi pasti bengkak biayanya. Ternyata di Archikandi sistem RAB-nya sangat transparan teratur. Rumah keluarga kami di Tambaksari sekarang super sejuk, rapi, dan lega sekali."</p>
+                <span class="block text-xs font-bold font-geist text-white">Bpk. Hendra Kurniawan — Pemilik Rumah, Tambaksari</span>
+            </div>
+            <div class="glass-panel rounded-2xl p-6 w-[400px] whitespace-normal inline-block">
+                <p class="text-xs md:text-sm text-white/70 italic font-inter mb-4">"Sangat puas dengan penataan interior kantor ruko kami di Tegalsari. Ruang kerja terasa sangat luas, fungsional, dan proses pengurusan berkas perizinan PBG diatasi cepat tanpa hambatan birokrasi."</p>
+                <span class="block text-xs font-bold font-geist text-white">Ibu Linda Wijaya — Direktur Operasional, Surabaya Pusat</span>
+            </div>
+            <div class="glass-panel rounded-2xl p-6 w-[400px] whitespace-normal inline-block">
+                <p class="text-xs md:text-sm text-white/70 italic font-inter mb-4">"Pengerjaan struktur beton dan finishing dinding interior sangat halus presisi di area Wiyung. Seluruh material dipasok jujur sesuai klausul perjanjian kontrak awal, terima kasih tim Archikandi!"</p>
+                <span class="block text-xs font-bold font-geist text-white">Bpk. Dr. Santoso — Pemilik Komersial Properti, Surabaya Selatan</span>
+            </div>
+            <div class="glass-panel rounded-2xl p-6 w-[400px] whitespace-normal inline-block">
+                <p class="text-xs md:text-sm text-white/70 italic font-inter mb-4">"Awalnya ragu karena mikir pakai arsitek resmi pasti bengkak biayanya. Ternyata di Archikandi sistem RAB-nya sangat transparan teratur. Rumah keluarga kami di Tambaksari sekarang super sejuk, rapi, dan lega sekali."</p>
+                <span class="block text-xs font-bold font-geist text-white">Bpk. Hendra Kurniawan — Pemilik Rumah, Tambaksari</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-24">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-xs tracking-[0.25em] text-orange-500 font-geist block mb-2">[ AUTOMATED AUDIBLE SEO ]</span>
+                <h2 class="text-3xl font-bold font-geist tracking-tighter text-white">Pertanyaan Yang Sering Diajukan (FAQ)</h2>
+                <p class="text-xs text-white/40 mt-2 font-inter">Klik tombol speaker di samping pertanyaan untuk mendengarkan pembacaan jawaban digital secara profesional.</p>
             </div>
 
-            <div class="faq-layout">
-                <div class="faq-card reveal-element">
-                    <div class="faq-trigger">
-                        <h3>Berapa biaya jasa desain interior di Surabaya?</h3>
-                        <button class="btn-voice" onclick="speakText(this, 'Biaya sangat fleksibel menyesuaikan tingkat kerumitan dan luas area. Di Archikandi, kami menyediakan Paket A hingga D agar anggaran Anda tepat sasaran tanpa mengorbankan kualitas.')" aria-label="Dengarkan Jawaban">
-                            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5v14M22 9v6M7 7v10M2 10v4"/></svg>
+            <div class="space-y-4">
+                <div class="glass-panel rounded-2xl p-6">
+                    <div class="flex items-center justify-between gap-4">
+                        <h3 class="text-sm md:text-base font-bold font-geist text-white">1. INFORMASI APA SAJA YANG PERLU SAYA SIAPKAN SEBELUM MEMULAI DESAIN?</h3>
+                        <button class="btn-voice w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-[#4fd1e0] transition-all duration-300 hover:bg-white/10" onclick="readFAQAnswer(this, 'Beberapa informasi penting yang perlu Anda siapkan antara lain: Ukuran atau dimensi lahan, Lokasi dan peta situasi lahan, Anggaran yang Anda alokasikan untuk pembangunan, Kebutuhan ruang seperti jumlah kamar tidur dan kamar mandi, serta Gaya arsitektur yang Anda sukai.')">
+                            <i data-lucide="volume-2" class="w-4 h-4" aria-hidden="true"></i>
                         </button>
                     </div>
-                    <p>Biaya sangat fleksibel menyesuaikan tingkat kerumitan dan luas area. Di Archikandi, kami menyediakan Paket A hingga D agar anggaran Anda tepat sasaran tanpa mengorbankan kualitas materi dan standar keamanan struktur.</p>
+                    <div class="mt-4 text-xs md:text-sm text-white/50 space-y-2 font-inter border-t border-white/5 pt-4">
+                        <p>Beberapa informasi penting yang perlu Anda siapkan antara lain:</p>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li>Ukuran atau dimensi lahan.</li>
+                            <li>Lokasi dan peta situasi lahan.</li>
+                            <li>Anggaran yang Anda alokasikan untuk pembangunan.</li>
+                            <li>Kebutuhan ruang (berapa kamar tidur, kamar mandi, ruang keluarga, dll).</li>
+                            <li>Gaya arsitektur yang Anda sukai (modern, minimalis, klasik, dll).</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="faq-card reveal-element">
-                    <div class="faq-trigger">
-                        <h3>Apakah melayani area luar Surabaya seperti Sidoarjo atau Gresik?</h3>
-                        <button class="btn-voice" onclick="speakText(this, 'Tentu! Jangkauan layanan all-in-one kami mencakup seluruh area Gerbangkertosusila, dengan fokus pelayanan cepat untuk Sidoarjo, Gresik, hingga perbatasan Mojokerto.')" aria-label="Dengarkan Jawaban">
-                            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5v14M22 9v6M7 7v10M2 10v4"/></svg>
+                <div class="glass-panel rounded-2xl p-6">
+                    <div class="flex items-center justify-between gap-4">
+                        <h3 class="text-sm md:text-base font-bold font-geist text-white">2. BAGAIMANA JIKA SAYA BELUM TAHU ANGGARAN SAYA?</h3>
+                        <button class="btn-voice w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-[#4fd1e0] transition-all duration-300 hover:bg-white/10" onclick="readFAQAnswer(this, 'Tidak masalah. Kami dapat membantu Anda memperkirakan struktur anggaran berdasarkan kebutuhan ruang dan konsep desain yang diinginkan agar tetap aman dan terjangkau.')">
+                            <i data-lucide="volume-2" class="w-4 h-4" aria-hidden="true"></i>
                         </button>
                     </div>
-                    <p>Tentu! Jangkauan layanan all-in-one komprehensif kami mencakup seluruh teritorial Gerbangkertosusila, dengan konsentrasi jangkauan tim lapangan untuk wilayah administrasi Sidoarjo, Kabupaten Gresik, hingga kawasan industri perbatasan Mojokerto.</p>
+                    <p class="mt-4 text-xs md:text-sm text-white/50 font-inter border-t border-white/5 pt-4">
+                        Tidak masalah. Kami dapat membantu Anda memperkirakan anggaran berdasarkan kebutuhan spesifik ruang dan jenis desain eksterior maupun interior yang diinginkan.
+                    </p>
                 </div>
-            </div>
 
-            <div class="lsi-tags reveal-element">
-                <p style="font-size: 14px; line-height: 1.6; max-width: 900px; margin: 0 auto 30px auto; text-align: justify;">
-                    Jangan biarkan hunian impian Anda hanya sebatas angan-angan yang tertunda. Wujudkan ruang yang estetis, fungsional, dan sehat bersama <a href="https://jasa-design-interior-arsitektur-archikandi.vercel.app/" style="color: var(--accent-cyan); text-decoration: none; font-weight: 600;">Archikandi Design Project</a>. Sebagai spesialis jasa desain interior Surabaya yang didukung oleh arsitek bersertifikasi, kami siap mendampingi Anda dari tahap perencanaan, perizinan, hingga konstruksi dengan anggaran yang fleksibel. Hubungi kami hari ini untuk konsultasi gratis dan mulailah perjalanan membangun cerita indah di setiap sudut ruang Anda!
-                </p>
-                
-                <h3 class="lsi-title">Indeks Silo Wilayah Target Layanan</h3>
-                <div class="tag-cloud">
-                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-tambaksari" rel="dofollow">Jasa Desain Interior Rumah Surabaya Timur</a>
-                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-tegalsari" rel="dofollow">Biro Desain Interior Kantor Surabaya Pusat</a>
-                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-wonokromo" rel="dofollow">Jasa Arsitek Surabaya Selatan</a>
-                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-sambikerep" rel="dofollow">Desain Interior Mewah Surabaya</a>
-                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-krembangan" rel="dofollow">Renovasi Bangunan Surabaya Utara</a>
-                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-waru" rel="dofollow">Rancang Bangun Rumah Sidoarjo</a>
-                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-menganti" rel="dofollow">Konsultan Arsitek Resmi Gresik</a>
+                <div class="glass-panel rounded-2xl p-6">
+                    <div class="flex items-center justify-between gap-4">
+                        <h3 class="text-sm md:text-base font-bold font-geist text-white">3. APAKAH SAYA PERLU MEMBAWA IDE ATAU REFERENSI DESAIN?</h3>
+                        <button class="btn-voice w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-[#4fd1e0] transition-all duration-300 hover:bg-white/10" onclick="readFAQAnswer(this, 'Tidak wajib. Namun jika Anda memiliki inspirasi gambar atau cerita tentang gaya rumah impian Anda, hal itu akan sangat membantu kami memahami preferensi Anda lebih cepat.')">
+                            <i data-lucide="volume-2" class="w-4 h-4" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <p class="mt-4 text-xs md:text-sm text-white/50 font-inter border-t border-white/5 pt-4">
+                        Tidak wajib, tetapi jika Anda memiliki inspirasi atau referensi desain tertentu, akan sangat membantu kami memahami preferensi estetika Anda. Anda bisa membawa gambar, sketsa kasar, atau bahkan cerita tentang gaya rumah impian Anda.
+                    </p>
+                </div>
+
+                <div class="glass-panel rounded-2xl p-6">
+                    <div class="flex items-center justify-between gap-4">
+                        <h3 class="text-sm md:text-base font-bold font-geist text-white">4. BAGAIMANA JIKA SAYA MEMILIKI ANGGARAN YANG TERBATAS?</h3>
+                        <button class="btn-voice w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-[#4fd1e0] transition-all duration-300 hover:bg-white/10" onclick="readFAQAnswer(this, 'Kami akan membantu Anda menciptakan solusi desain yang optimal dan efisien sesuai batas anggaran tanpa mengorbankan kualitas bahan bangunan serta fungsionalitas ruang.')">
+                            <i data-lucide="volume-2" class="w-4 h-4" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <p class="mt-4 text-xs md:text-sm text-white/50 font-inter border-t border-white/5 pt-4">
+                        Kami akan membantu Anda menciptakan desain bangunan yang optimal dan efisien sesuai dengan skala anggaran yang Anda miliki, tanpa mengorbankan kualitas material dan fungsionalitas tata ruang jangka panjang.
+                    </p>
+                </div>
+
+                <div class="glass-panel rounded-2xl p-6">
+                    <div class="flex items-center justify-between gap-4">
+                        <h3 class="text-sm md:text-base font-bold font-geist text-white">5. APAKAH SAYA PERLU MEMBAYAR BIAYA KONSULTASI AWAL?</h3>
+                        <button class="btn-voice w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-[#4fd1e0] transition-all duration-300 hover:bg-white/10" onclick="readFAQAnswer(this, 'Tidak. Kami menyediakan layanan konsultasi gratis penuh di tahap awal untuk memetakan kebutuhan unik Anda dan menjelaskan peta jalan alur kerja.')">
+                            <i data-lucide="volume-2" class="w-4 h-4" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <p class="mt-4 text-xs md:text-sm text-white/50 font-inter border-t border-white/5 pt-4">
+                        Tidak! Kami menyediakan fasilitas sesi konsultasi gratis di tahap awal untuk memetakan kebutuhan unik Anda, memberikan panduan awal, dan menjelaskan peta jalan proses kerja kami secara transparan.
+                    </p>
+                </div>
+
+                <div class="glass-panel rounded-2xl p-6 border-dashed border-[#4fd1e0]/30">
+                    <div class="flex items-center justify-between gap-4">
+                        <h3 class="text-sm md:text-base font-bold font-geist text-[#4fd1e0]">6. APAKAH ADA PERTANYAAN LAIN?</h3>
+                        <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20ingin%20bertanya%20mengenai%20layanan%20desain%20interior" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-[#4fd1e0]/10 flex items-center justify-center text-[#4fd1e0] hover:bg-[#4fd1e0] hover:text-[#090a0c] transition-all duration-300">
+                            <i data-lucide="arrow-up-right" class="w-4 h-4" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <p class="mt-2 text-xs md:text-sm text-white/70 font-inter">
+                        Silakan kirim pesan langsung kepada kami via WhatsApp untuk mendapatkan tanggapan instan dari tim arsitek piket kami.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer>
-        <div class="container footer-grid">
-            <div>
-                <div class="footer-logo">ARCHIKANDI<span>.</span></div>
-                <p>Biro arsitektur dan desain interior terdepan di Kota Surabaya. Menghadirkan solusi spasial yang indah, sehat, fungsional, dan bernilai tinggi bagi setiap cerita kehidupan Anda.</p>
-            </div>
-            <div>
-                <h4 class="footer-title">Alamat Kantor</h4>
-                <p>Titik Pusat Operasional: Kecamatan Tambaksari, Kota Surabaya, Jawa Timur, Indonesia.</p>
-                <p>Hotline WA: 0856-4861-4694</p>
-            </div>
-            <div>
-                <h4 class="footer-title">Navigasi Proyek</h4>
-                <ul class="footer-links">
-                    <li><a href="#problem">Pain Points</a></li>
-                    <li><a href="#solusi">Keunggulan USP</a></li>
-                    <li><a href="#layanan">Layanan All-In-One</a></li>
-                    <li><a href="#portfolio">Dokumentasi Proyek</a></li>
-                </ul>
+    <section id="contact" class="py-24 bg-[#0c0d10] border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5 space-y-6 bg-white/[0.02] p-8 rounded-2xl border border-white/5 shadow-inner">
+                    <span class="text-xs font-semibold tracking-[0.2em] text-[#4fd1e0] font-geist block">[ HUBUNGI KANTOR KAMI ]</span>
+                    
+                    <div class="space-y-4 font-inter text-sm text-white">
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-orange-500 shrink-0 mt-0.5" aria-hidden="true"></i>
+                            <div>
+                                <h4 class="text-xs font-bold font-geist text-white/40 uppercase tracking-wider">Alamat Studio</h4>
+                                <p class="text-base font-medium mt-1 text-white">Jl. Pacarkembang 5/33, Tambaksari, Kota Surabaya</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="phone" class="w-5 h-5 text-[#4fd1e0] shrink-0 mt-0.5" aria-hidden="true"></i>
+                            <div>
+                                <h4 class="text-xs font-bold font-geist text-white/40 uppercase tracking-wider">Hotline WhatsApp</h4>
+                                <p class="text-base font-semibold text-white mt-1">(+62) 856 4861 4694</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="mail" class="w-5 h-5 text-[#6b7cff] shrink-0 mt-0.5" aria-hidden="true"></i>
+                            <div>
+                                <h4 class="text-xs font-bold font-geist text-white/40 uppercase tracking-wider">Korespondensi Email</h4>
+                                <p class="text-base text-white mt-1">archikandi@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="clock" class="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" aria-hidden="true"></i>
+                            <div>
+                                <h4 class="text-xs font-bold font-geist text-white/40 uppercase tracking-wider">Jam Operasional Resmi</h4>
+                                <p class="text-sm font-medium text-white mt-1">Senin – Jumat: 08.00 – 17.00 WIB</p>
+                                <p class="text-sm font-medium text-white">Sabtu: 08.00 – 13.00 WIB</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="globe" class="w-5 h-5 text-purple-400 shrink-0 mt-0.5" aria-hidden="true"></i>
+                            <div>
+                                <h4 class="text-xs font-bold font-geist text-white/40 uppercase tracking-wider">Portal Utama Resmi</h4>
+                                <p class="text-sm mt-1"><a href="https://archikandi.com" target="_blank" class="text-[#4fd1e0] underline hover:text-white transition-colors">https://archikandi.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <a href="https://www.google.com/maps/place/Jl.+Pacar+Kembang+V+No.33,+RT.009%2FRW.07,+Pacar+Kembang,+Kec.+Tambaksari,+Surabaya,+Jawa+Timur+60132/@-7.2585843,112.765575,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd7f98253962413:0xcb41ceeb91526b36!8m2!3d-7.2585843!4d112.765575!16s%2Fg%2F11crxbkwp3?hl=en-US&entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="group block relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 hover:border-orange-500/40">
+                        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=800&auto=format&fit=crop" class="w-full h-[320px] object-cover filter grayscale contrast-125 transition-transform duration-700 group-hover:scale-[1.03]" alt="Peta Lokasi Kantor Archikandi Design Project Tambaksari">
+                        <div class="absolute inset-0 bg-indigo-950/20 mix-blend-color"></div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#090a0c] via-transparent to-transparent"></div>
+                        <div class="absolute inset-0 flex flex-col items-center justify-center bg-black/40 backdrop-blur-[2px] opacity-100 group-hover:bg-black/20 transition-all duration-300">
+                            <div class="w-14 h-14 rounded-full bg-orange-500 flex items-center justify-center text-white shadow-xl shadow-orange-500/20 mb-3 transform transition-transform duration-500 group-hover:scale-110">
+                                <i data-lucide="map" class="w-6 h-6"></i>
+                            </div>
+                            <span class="text-xs font-bold font-geist tracking-widest text-white text-center px-4">BUKA PETALOKASI GOOGLE MAPS</span>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="credit-line">
-            <p>© 2026 Archikandi Design Project. All Rights Reserved. Hak cipta dilindungi undang-undang.</p>
-            <p style="margin-top: 6px;"><a href="http://ciledugpromo.biz.id" target="_blank" rel="dofollow">SEO & Web Architecture by ciledugpromo.biz.id</a></p>
+    </section>
+
+    <section class="py-16 border-t border-white/5 bg-[#090a0c]">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-xs md:text-sm text-white/40 max-w-4xl mx-auto text-justify leading-relaxed mb-10 font-inter">
+                Jangan biarkan hunian impian Anda hanya sebatas angan-angan yang tertunda. Wujudkan ruang yang estetis, fungsional, dan sehat bersama <a href="https://jasa-design-interior-arsitektur-archikandi.vercel.app/" class="text-[#4fd1e0] font-semibold underline">Archikandi Design Project</a>. Sebagai spesialis jasa desain interior Surabaya yang didukung oleh arsitek bersertifikasi, kami siap mendampingi Anda dari tahap perencanaan, perizinan, hingga konstruksi dengan anggaran yang fleksibel. Hubungi kami hari ini untuk konsultasi gratis dan mulailah perjalanan membangun cerita indah di setiap sudut ruang Anda!
+            </p>
+            
+            <div class="border-t border-white/5 pt-8">
+                <h4 class="text-xs font-bold tracking-[0.2em] font-geist text-white/50 mb-4 uppercase">Pencarian Terkait (Tags Wilayah Jangkauan)</h4>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-tambaksari" class="text-xs bg-white/[0.02] border border-white/5 px-4 py-2 rounded-full text-white/50 hover:text-white hover:border-[#6b7cff]/40 transition-all duration-300">Jasa Desain Interior Rumah Surabaya Timur</a>
+                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-tegalsari" class="text-xs bg-white/[0.02] border border-white/5 px-4 py-2 rounded-full text-white/50 hover:text-white hover:border-[#6b7cff]/40 transition-all duration-300">Biro Desain Interior Kantor Surabaya Pusat</a>
+                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-wonokromo" class="text-xs bg-white/[0.02] border border-white/5 px-4 py-2 rounded-full text-white/50 hover:text-white hover:border-[#6b7cff]/40 transition-all duration-300">Jasa Arsitek Surabaya Selatan</a>
+                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-sambikerep" class="text-xs bg-white/[0.02] border border-white/5 px-4 py-2 rounded-full text-white/50 hover:text-white hover:border-[#6b7cff]/40 transition-all duration-300">Desain Interior Mewah Surabaya</a>
+                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-krembangan" class="text-xs bg-white/[0.02] border border-white/5 px-4 py-2 rounded-full text-white/50 hover:text-white hover:border-[#6b7cff]/40 transition-all duration-300">Renovasi Bangunan Surabaya Utara</a>
+                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-waru" class="text-xs bg-white/[0.02] border border-white/5 px-4 py-2 rounded-full text-white/50 hover:text-white hover:border-[#6b7cff]/40 transition-all duration-300">Rancang Bangun Rumah Sidoarjo</a>
+                    <a href="https://dongkrakusaha.com/layanan-jasa-desain-interior-surabaya-menganti" class="text-xs bg-white/[0.02] border border-white/5 px-4 py-2 rounded-full text-white/50 hover:text-white hover:border-[#6b7cff]/40 transition-all duration-300">Konsultan Arsitek Resmi Gresik</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#050608] border-t border-white/5 py-12">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-xs text-white/30 font-inter">
+                © 2026 Archikandi Design Project. Seluruh Hak Cipta Dilindungi.
+            </div>
+            <div class="text-xs text-white/40 font-geist tracking-wider text-center md:text-right">
+                <a href="http://dongkrakusaha.com" target="_blank" rel="dofollow" class="hover:text-white transition-colors">SEO & Web Architecture by ciledugpromo.biz.id</a>
+            </div>
         </div>
     </footer>
 
+    <a href="https://wa.me/6285648614694?text=Halo%20Archikandi%2C%20saya%20ingin%20Free%20Konsultasi%20untuk%20Jasa%20Desain%20Interior%20di%20Surabaya" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25d366] text-white rounded-full flex items-center justify-center shadow-2xl shadow-green-500/20 transform transition-transform duration-300 hover:scale-110" aria-label="Hubungi WhatsApp Kami" style="animation: floating-pulse 2s infinite alternate;">
+        <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.458L0 24zm6.59-3.559c1.62.963 3.377 1.47 5.176 1.471 5.425 0 9.839-4.411 9.843-9.843.002-2.632-1.023-5.105-2.887-6.97C16.853 3.236 14.383 2.21 11.752 2.21 6.329 2.21 1.916 6.621 1.912 12.055c-.001 1.81.474 3.58 1.376 5.148l-1.008 3.684 3.767-.988zM17.472 14.3c-.3-.149-1.772-.874-2.043-.973-.272-.099-.471-.148-.669.149-.198.297-.768.972-.941 1.171-.173.199-.347.223-.648.074-.3-.149-1.265-.466-2.41-1.487-.893-.797-1.496-1.782-1.671-2.081-.174-.299-.019-.461.13-.61.135-.133.3-.347.45-.52.149-.174.199-.297.298-.496.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.772-.724 2.02-1.424.248-.699.248-1.299.174-1.424-.075-.124-.272-.198-.57-.347z"/></svg>
+    </a>
+
+    <style>
+        @keyframes floating-pulse {
+            0% { transform: translateY(0) scale(1); }
+            100% { transform: translateY(-8px) scale(1.03); }
+        }
+    </style>
+
     <script>
-        // Micro-JS Reveal IntersectionObserver Engine (Zero-Bloat)
-        document.addEventListener("DOMContentLoaded", function() {
-            const revealElements = document.querySelectorAll('.reveal-element');
-            
-            const elementObserver = new IntersectionObserver(function(entries, observer) {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('active');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, {
-                threshold: 0.15
-            });
+        // Initialize Lucide Icons Vector Matrix
+        lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
 
-            revealElements.forEach(element => {
-                element.classList.add('reveal-element'); // Fallback injection safeguard
-                elementObserver.observe(element);
-            });
-        });
+        // Smooth Scrolling Framework via Native Smooth Behavior Emulation
+        const lenis = new Lenis({ duration: 1.2, ease: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)) });
+        function raf(time) { lenis.raf(time); requestAnimationFrame(raf); }
+        requestAnimationFrame(raf);
 
-        // Audible Intelligence Module (Native Web Speech API Integration)
-        let currentUtterance = null;
+        // Infinite Marquee Track CSS Transform Loop
+        const marqueeTrack = document.getElementById('marqueeTrack');
+        let scrollPos = 0;
+        function autoScrollMarquee() {
+            scrollPos += 0.5;
+            if (scrollPos >= 1200) { scrollPos = 0; }
+            marqueeTrack.scrollLeft = scrollPos;
+            requestAnimationFrame(autoScrollMarquee);
+        }
+        // Run loop only on screen arrays supporting interaction safely
+        if(window.innerWidth > 768) { requestAnimationFrame(autoScrollMarquee); }
 
-        function speakText(button, textToSpeak) {
-            // Check if SpeechSynthesis is supported
+        // Core Voice Engine (Web Speech API Native Client Integration)
+        let synthesisUtterance = null;
+
+        function readFAQAnswer(buttonElement, textPayload) {
             if (!('speechSynthesis' in window)) {
-                alert("Maaf, fitur pencarian suara tidak didukung oleh browser Anda.");
+                alert("Browser Anda belum mendukung modul Audible Voice API.");
                 return;
             }
 
-            // If already speaking, stop the current session
+            // Interrupt ongoing tracks cleanly
             if (window.speechSynthesis.speaking) {
                 window.speechSynthesis.cancel();
                 document.querySelectorAll('.btn-voice').forEach(btn => btn.classList.remove('speaking'));
-                if (currentUtterance && currentUtterance.text === textToSpeak) {
-                    currentUtterance = null;
+                if (synthesisUtterance && synthesisUtterance.text === textPayload) {
+                    synthesisUtterance = null;
                     return;
                 }
             }
 
-            // Create new vocal track configuration
-            const utterance = new SpeechSynthesisUtterance(textToSpeak);
-            utterance.lang = 'id-ID'; // Secure local language matching
-            utterance.rate = 1.0;
-            utterance.pitch = 1.0;
+            // Structural Tuning for Deep Mature Voice Representation
+            const utterance = new SpeechSynthesisUtterance(textPayload);
+            utterance.lang = 'id-ID';
+            utterance.rate = 0.90; // Mature deliberate marketing pace
+            utterance.pitch = 0.85; // Low-pitch setting for male resonance approximation
 
-            utterance.onstart = function() {
-                button.classList.add('speaking');
+            utterance.onstart = function () {
+                buttonElement.classList.add('speaking');
             };
 
-            utterance.onend = function() {
-                button.classList.remove('speaking');
-                currentUtterance = null;
+            utterance.onend = function () {
+                buttonElement.classList.remove('speaking');
+                synthesisUtterance = null;
             };
 
-            utterance.onerror = function() {
-                button.classList.remove('speaking');
-                currentUtterance = null;
+            utterance.onerror = function () {
+                buttonElement.classList.remove('speaking');
+                synthesisUtterance = null;
             };
 
-            currentUtterance = utterance;
+            synthesisUtterance = utterance;
             window.speechSynthesis.speak(utterance);
         }
+
+        // Micro-Reveal Viewport Pipeline (Zero-Bloat Scroll Animation Protection)
+        const revealBlocks = document.querySelectorAll('.glass-panel, #problem h2, #problem p');
+        const appearanceObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                    appearanceObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+        revealBlocks.forEach(block => {
+            block.style.opacity = '0';
+            block.style.transform = 'translateY(24px)';
+            block.style.transition = 'opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1)';
+            appearanceObserver.observe(block);
+        });
     </script>
 </body>
 </html>
