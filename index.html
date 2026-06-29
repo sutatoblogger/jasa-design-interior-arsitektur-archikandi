@@ -3,164 +3,732 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arkavia Construction - Ahli Renovasi Rumah Surabaya | RAB Transparan</title>
-    <meta name="description" content="Archikandi Design Project: Ahli renovasi rumah Surabaya terpercaya. RAB transparan, desain interior, dan konstruksi bangunan. Konsultasi Gratis!">
-    <meta name="keywords" content="Ahli Renovasi Rumah Surabaya, Archikandi Design, Jasa Renovasi Rumah, Kontraktor Surabaya, Desain Interior Surabaya, RAB Transparan">
-    <style>
-        :root {
-            --bg: #090a0c;
-            --accent-indigo: #6b7cff;
-            --accent-cyan: #4fd1e0;
-            --text-main: #ffffff;
-            --text-muted: #8a8d98;
-            --glass: rgba(255, 255, 255, 0.05);
-            --border: rgba(255, 255, 255, 0.1);
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { background-color: var(--bg); color: var(--text-muted); font-family: 'Inter', -apple-system, sans-serif; line-height: 1.6; overflow-x: hidden; }
-        h1, h2, h3 { color: var(--text-main); font-weight: 700; margin-bottom: 1rem; }
-        
-        /* Glassmorphism */
-        .glass { background: var(--glass); backdrop-filter: blur(20px); border: 1px solid var(--border); border-radius: 20px; }
-        
-        /* Typography */
-        .gradient-text { background: linear-gradient(90deg, var(--accent-indigo), var(--accent-cyan)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        
-        /* Header */
-        header { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 2rem; position: relative; }
-        .hero-bg { position: absolute; inset: 0; opacity: 0.3; object-fit: cover; z-index: -1; }
-        .cta-btn { background: linear-gradient(90deg, var(--accent-indigo), var(--accent-cyan)); color: white; padding: 1rem 2rem; border-radius: 50px; display: inline-block; font-weight: bold; margin-top: 2rem; transition: transform 0.3s; }
-        .cta-btn:hover { transform: scale(1.05); }
+    <title>Arkavia Construction - Ahli Renovasi Rumah Surabaya</title>
+    <meta name="description" content="Ahli renovasi rumah Surabaya terpercaya. RAB 100% transparan, jasa desain interior, perizinan, dan konstruksi bangunan. Wujudkan hunian impian Anda bersama Arkavia Construction.">
+    <meta name="keywords" content="Ahli Renovasi Rumah Surabaya, Jasa Renovasi Tambaksari, Ahli Desain Interior Gubeng, Kontraktor Bangun Rumah Sukolilo, Jasa Arsitek Mulyorejo, Pemborong Rungkut, Biaya Renovasi Sidoarjo">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
-        /* Grid Layouts */
-        .container { max-width: 1200px; margin: 0 auto; padding: 4rem 2rem; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "name": "Arkavia Construction",
+          "alternateName": "Archikandi Design Project",
+          "description": "Ahli renovasi rumah Surabaya terpercaya. Melayani desain interior, bangun baru, dan renovasi fasad dengan RAB transparan.",
+          "telephone": "+6285648614694",
+          "email": "archikandi@gmail.com",
+          "url": "https://ahli-renovasi-rumah-surabaya.vercel.app",
+          "sameAs": [
+            "https://ahlirenovasirumah.com",
+            "https://maps.google.com/maps?ll=-7.258584,112.765575&z=12&t=m&hl=en-US&gl=US&mapclient=embed&q=Jl.%20Pacar%20Kembang%20V%20No.33%20RT.009%2FRW.07%2C%20Pacar%20Kembang%20Kec.%20Tambaksari%20Surabaya%2C%20Jawa%20Timur%2060132"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Pacarkembang V No.33, RT.009/RW.07, Pacar Kembang",
+            "addressLocality": "Kec. Tambaksari, Surabaya",
+            "addressRegion": "Jawa Timur",
+            "postalCode": "60132",
+            "addressCountry": "ID"
+          },
+          "openingHoursSpecification": [
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "17:00" },
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "12:00" }
+          ],
+          "priceRange": "$$$"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "Apa perbedaan utama antara Paket A hingga D?", "acceptedAnswer": { "@type": "Answer", "text": "Perbedaannya terletak pada kelengkapan dokumen teknis. Paket A fokus pada visual dasar, sedangkan Paket C dan D mencakup detail teknis struktural, kelistrikan, RAB, hingga animasi 3D." } },
+            { "@type": "Question", "name": "Apakah melayani jasa renovasi rumah di luar Surabaya?", "acceptedAnswer": { "@type": "Answer", "text": "Ya, kami melayani wilayah satelit di sekitar Surabaya, seperti Sidoarjo dan Jombang." } },
+            { "@type": "Question", "name": "Berapa lama proses pengerjaan desain hingga siap konstruksi?", "acceptedAnswer": { "@type": "Answer", "text": "Untuk desain standar memakan waktu 2-4 minggu, sementara paket lengkap dengan perhitungan struktur dan animasi membutuhkan waktu 4-6 minggu." } },
+            { "@type": "Question", "name": "Bagaimana cara menjamin RAB yang transparan agar tidak membengkak?", "acceptedAnswer": { "@type": "Answer", "text": "Kami menerapkan sistem fixed-price berdasarkan item pekerjaan. Setiap perubahan dikomunikasikan secara tertulis melalui Addendum." } },
+            { "@type": "Question", "name": "Apakah desain interior juga termasuk dalam jasa arsitektur?", "acceptedAnswer": { "@type": "Answer", "text": "Ya, kami menyediakan jasa desain interior terintegrasi agar estetika visual di dalam rumah selaras dengan struktur eksterior." } },
+            { "@type": "Question", "name": "Apakah saya dibantu dalam pengurusan dokumen perizinan (PBG/IMB)?", "acceptedAnswer": { "@type": "Answer", "text": "Tentu. Kami menyediakan layanan tambahan penyusunan dokumen perizinan." } }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://ahli-renovasi-rumah-surabaya.vercel.app",
+          "relatedLink": [
+            "https://dongkrakusaha.com/layanan-jasa-renovasi-rumah-tambaksari-surabaya",
+            "https://dongkrakusaha.com/layanan-spesialis-renovasi-rumah-3d-tambaksari",
+            "https://dongkrakusaha.com/layanan-ahli-desain-interior-mewah-gubeng-surabaya",
+            "https://dongkrakusaha.com/layanan-kontraktor-bangun-rumah-baru-sukolilo",
+            "https://dongkrakusaha.com/layanan-jasa-arsitek-renovasi-rumah-mulyorejo",
+            "https://dongkrakusaha.com/layanan-pemborong-renovasi-perluasan-rumah-rungkut",
+            "https://dongkrakusaha.com/layanan-estimasi-biaya-renovasi-rumah-sidoarjo"
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        /* CSS Reset & Variables */
+        :root {
+            --bg-dark: #07080a;
+            --bg-surface: #101115;
+            --text-main: #fcfbf9;
+            --text-muted: #9ca3af;
+            --accent-gold: #dcb66f;
+            --glass-bg: rgba(255, 255, 255, 0.02);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --wa-green: #25D366;
+            --font-serif: 'Playfair Display', serif;
+            --font-sans: 'Inter', sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
-        /* Cards */
-        .card { padding: 2rem; transition: transform 0.3s, box-shadow 0.3s; }
-        .card:hover { transform: translateY(-10px); box-shadow: 0 10px 30px rgba(79, 209, 224, 0.1); }
+        body { 
+            background-color: var(--bg-dark); 
+            color: var(--text-muted); 
+            font-family: var(--font-sans); 
+            line-height: 1.7; 
+            overflow-x: hidden; 
+            -webkit-font-smoothing: antialiased; 
+        }
+
+        h1, h2, h3, h4 { font-family: var(--font-serif); color: var(--text-main); font-weight: 400; line-height: 1.2; }
+        h1 { font-size: clamp(3rem, 6vw, 5.5rem); letter-spacing: -0.02em; }
+        h2 { font-size: clamp(2.2rem, 4vw, 3.5rem); margin-bottom: 1.5rem; letter-spacing: -0.01em; }
+        h3 { font-size: clamp(1.25rem, 2vw, 1.75rem); margin-bottom: 0.75rem; }
+        .subtitle { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent-gold); display: block; margin-bottom: 1rem; }
+        p { font-size: clamp(0.9rem, 1.2vw, 1rem); }
+        a { text-decoration: none; color: inherit; transition: all 0.3s ease; }
+        img { max-width: 100%; height: auto; display: block; }
+
+        /* Layout */
+        section { padding: 8rem 6%; }
+        .container { max-width: 1280px; margin: 0 auto; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; }
+
+        /* Navigation */
+        nav { 
+            position: fixed; top: 0; width: 100%; z-index: 100; 
+            padding: 1.5rem 6%; display: flex; justify-content: space-between; align-items: center; 
+            background: rgba(7, 8, 10, 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--glass-border);
+            transition: all 0.4s ease;
+        }
+        .logo-text { font-family: var(--font-serif); font-size: 1.8rem; font-weight: 700; color: var(--text-main); letter-spacing: 1px; }
+        .logo-text span { color: var(--accent-gold); font-style: italic; font-weight: 400; }
+        .nav-links { display: flex; gap: 2.5rem; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-main); }
+        .nav-links a:hover { color: var(--accent-gold); }
+
+        /* Hero */
+        .hero { min-height: 100vh; display: flex; align-items: center; position: relative; padding-top: 6rem; }
+        .hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.25; z-index: -1; }
+        .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(7,8,10,0.1) 0%, rgba(7,8,10,1) 100%); z-index: -1; }
+        .hero-content { max-width: 900px; margin: 0 auto; text-align: center; }
+        .hero-content p { max-width: 700px; margin: 2rem auto; font-weight: 300; }
+
+        /* Aura.build Style Buttons */
+        .btn-aura {
+            position: relative;
+            background: rgba(20, 20, 25, 0.6);
+            border: 1px solid rgba(220, 182, 111, 0.3);
+            color: var(--text-main);
+            padding: 1.2rem 2.5rem;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-size: 0.75rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: 0 0 15px rgba(220, 182, 111, 0);
+            cursor: pointer;
+        }
+        .btn-aura::before {
+            content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(220, 182, 111, 0.4), transparent);
+            transition: left 0.6s ease;
+        }
+        .btn-aura:hover {
+            border-color: var(--accent-gold);
+            background: rgba(220, 182, 111, 0.1);
+            box-shadow: 0 5px 20px rgba(220, 182, 111, 0.25);
+            transform: translateY(-3px);
+            color: #fff;
+        }
+        .btn-aura:hover::before { left: 100%; }
+
+        /* Continuous Marquee (Warna Asli) */
+        .marquee-section { padding: 3rem 0; border-top: 1px solid var(--glass-border); border-bottom: 1px solid var(--glass-border); background: var(--bg-surface); overflow: hidden; }
+        .marquee-track { display: flex; gap: 6rem; align-items: center; width: max-content; animation: scroll 40s linear infinite; }
+        .marquee-track img { height: 50px; width: auto; object-fit: contain; } /* Ukuran medium elegan, warna asli */
+        @keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+        /* Layanan Cards */
+        .layanan-card { 
+            background: var(--glass-bg); border: 1px solid var(--glass-border); 
+            padding: 2.5rem; border-radius: 8px; position: relative; overflow: hidden;
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.5s;
+        }
+        .layanan-card:hover { transform: translateY(-10px); border-color: var(--accent-gold); }
+        .layanan-card img { 
+            width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; 
+            margin-bottom: 2rem; border-radius: 4px; filter: brightness(0.85); transition: filter 0.5s; 
+        }
+        .layanan-card:hover img { filter: brightness(1.1); }
         
-        /* Marquee */
-        .marquee { overflow: hidden; white-space: nowrap; padding: 2rem 0; border: 1px solid var(--border); }
-        .marquee-inner { display: inline-block; animation: marquee 20s linear infinite; }
-        @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+        /* Proses List */
+        .process-list { list-style: none; counter-reset: process-counter; margin-top: 2rem; }
+        .process-list li { position: relative; padding-left: 3.5rem; margin-bottom: 1.8rem; font-size: 1.05rem; color: var(--text-main); }
+        .process-list li::before { 
+            counter-increment: process-counter; content: "0" counter(process-counter); 
+            position: absolute; left: 0; top: -0.2rem; font-family: var(--font-serif); font-size: 1.4rem; color: var(--accent-gold);
+        }
+
+        /* BENTO GRID PORTFOLIO (Aura.build Style) */
+        .project-block { margin-bottom: 6rem; }
+        .project-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 1.5rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 1rem; }
+        .project-header h3 { margin-bottom: 0; font-size: 1.8rem; }
+        .project-meta { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-gold); }
+        
+        .bento-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1rem; grid-auto-rows: 250px; }
+        .bento-item { border-radius: 8px; overflow: hidden; position: relative; cursor: crosshair; }
+        .bento-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
+        .bento-item:hover img { transform: scale(1.08); }
+        
+        /* Specific Grid Layouts per Project */
+        /* Masjid Jombang (5 Items) */
+        .grid-masjid .item-1 { grid-column: span 8; grid-row: span 2; }
+        .grid-masjid .item-2 { grid-column: span 4; grid-row: span 1; }
+        .grid-masjid .item-3 { grid-column: span 4; grid-row: span 1; }
+        .grid-masjid .item-4 { grid-column: span 6; grid-row: span 1; }
+        .grid-masjid .item-5 { grid-column: span 6; grid-row: span 1; }
+        
+        /* Ponpes (5 Items) */
+        .grid-ponpes .item-1 { grid-column: span 6; grid-row: span 2; }
+        .grid-ponpes .item-2 { grid-column: span 6; grid-row: span 1; }
+        .grid-ponpes .item-3 { grid-column: span 3; grid-row: span 1; }
+        .grid-ponpes .item-4 { grid-column: span 3; grid-row: span 1; }
+        .grid-ponpes .item-5 { grid-column: span 12; grid-row: span 1; } /* Panoramic bottom */
+
+        /* Mr M (5 Items) */
+        .grid-mrm .item-1 { grid-column: span 8; grid-row: span 2; }
+        .grid-mrm .item-2 { grid-column: span 4; grid-row: span 1; }
+        .grid-mrm .item-3 { grid-column: span 4; grid-row: span 1; }
+        .grid-mrm .item-4 { grid-column: span 6; grid-row: span 1; }
+        .grid-mrm .item-5 { grid-column: span 6; grid-row: span 1; }
+
+        /* Private House (4 Items) */
+        .grid-private .item-1 { grid-column: span 12; grid-row: span 2; }
+        .grid-private .item-2 { grid-column: span 4; grid-row: span 1; }
+        .grid-private .item-3 { grid-column: span 4; grid-row: span 1; }
+        .grid-private .item-4 { grid-column: span 4; grid-row: span 1; }
+
+        /* Ibu Lina (2 Items) */
+        .grid-lina .item-1 { grid-column: span 6; grid-row: span 2; }
+        .grid-lina .item-2 { grid-column: span 6; grid-row: span 2; }
+
+        @media (max-width: 900px) {
+            .bento-grid { display: flex; flex-direction: column; gap: 1rem; }
+            .bento-item { height: 250px; }
+            .grid-masjid .item-1, .grid-private .item-1 { height: 350px; }
+        }
+
+        /* Aura Pricing Cards */
+        .aura-card {
+            background: linear-gradient(180deg, #181920 0%, #0b0c10 100%);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 3rem 2.5rem;
+            position: relative;
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            display: flex; flex-direction: column;
+            z-index: 1;
+        }
+        .aura-card::after {
+            content: ''; position: absolute; inset: -1px; border-radius: 16px;
+            background: linear-gradient(135deg, rgba(220,182,111,0.6), transparent, rgba(255,255,255,0.1));
+            z-index: -1; opacity: 0; transition: opacity 0.5s ease;
+        }
+        .aura-card:hover {
+            transform: translateY(-8px);
+            background: linear-gradient(180deg, #1c1e26 0%, #0b0c10 100%);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5), 0 0 40px rgba(220, 182, 111, 0.15);
+            border-color: transparent;
+        }
+        .aura-card:hover::after { opacity: 1; }
+        
+        .pkg-title { font-family: var(--font-serif); font-size: 2.2rem; color: var(--text-main); margin-bottom: 0.5rem; }
+        .pkg-list { list-style: none; margin: 2rem 0 auto 0; font-size: 0.9rem; color: var(--text-muted); }
+        .pkg-list li { padding: 0.8rem 0; border-bottom: 1px solid var(--glass-border); display: flex; align-items: flex-start; gap: 0.75rem; }
+        .pkg-list li:last-child { border-bottom: none; margin-bottom: 2rem; }
+        .pkg-list li::before { content: "✦"; color: var(--accent-gold); font-size: 0.8rem; margin-top: 0.1rem; }
 
         /* Voice FAQ */
-        .faq-item { margin-bottom: 1rem; padding: 1.5rem; }
-        .voice-trigger { background: var(--glass); border: 1px solid var(--border); padding: 0.5rem; border-radius: 50%; cursor: pointer; color: var(--accent-cyan); width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; }
-        
-        /* Sticky CTA */
-        .sticky-wa { position: fixed; bottom: 20px; right: 20px; z-index: 100; background: #25D366; padding: 1rem; border-radius: 50%; box-shadow: 0 0 20px rgba(37, 211, 102, 0.5); animation: pulse 2s infinite; }
-        @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); } 70% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0); } }
+        .faq-item { background: var(--bg-surface); border: 1px solid var(--glass-border); padding: 2rem; margin-bottom: 1rem; border-radius: 8px; display: flex; flex-direction: column; gap: 1rem; transition: border-color 0.3s; }
+        .faq-item:hover { border-color: rgba(220, 182, 111, 0.3); box-shadow: 0 5px 20px rgba(0,0,0,0.3); }
+        .faq-header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+        .faq-header h3 { margin-bottom: 0; font-size: 1.15rem; }
+        .voice-btn { 
+            background: transparent; border: 1px solid var(--accent-gold); border-radius: 50%; 
+            width: 42px; height: 42px; display: flex; justify-content: center; align-items: center; 
+            cursor: pointer; transition: all 0.3s; flex-shrink: 0;
+        }
+        .voice-btn svg { width: 18px; height: 18px; fill: var(--accent-gold); }
+        .voice-btn:hover { background: rgba(220, 182, 111, 0.1); transform: scale(1.1); }
+        .voice-btn.playing { animation: pulse-audio 1.5s infinite; background: var(--accent-gold); }
+        .voice-btn.playing svg { fill: var(--bg-dark); }
+        @keyframes pulse-audio { 0% { box-shadow: 0 0 0 0 rgba(220, 182, 111, 0.6); } 70% { box-shadow: 0 0 0 15px rgba(220, 182, 111, 0); } 100% { box-shadow: 0 0 0 0 rgba(220, 182, 111, 0); } }
 
+        /* Sticky CTA WA */
+        .cta-wa { position: fixed; bottom: 30px; right: 30px; background: var(--wa-green); width: 65px; height: 65px; border-radius: 50%; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3); z-index: 1000; transition: transform 0.3s; }
+        .cta-wa:hover { transform: scale(1.1); }
+        .cta-wa svg { width: 35px; height: 35px; fill: #fff; }
+
+        /* Maps Link Hover */
+        .map-link { display: block; border-radius: 8px; overflow: hidden; position: relative; }
+        .map-link img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; filter: grayscale(80%) contrast(1.1); transition: all 0.5s ease; }
+        .map-link::after { content: 'Buka di Google Maps ↗'; position: absolute; inset: 0; background: rgba(0,0,0,0.6); color: white; display: flex; justify-content: center; align-items: center; font-size: 1.2rem; font-weight: 600; opacity: 0; transition: opacity 0.3s; }
+        .map-link:hover img { filter: grayscale(0%) contrast(1); transform: scale(1.03); }
+        .map-link:hover::after { opacity: 1; }
+        
         /* Footer */
-        footer { padding: 4rem 2rem; text-align: center; border-top: 1px solid var(--border); }
-        .footer-links a { color: var(--text-muted); margin: 0 10px; }
+        footer { padding: 5rem 6% 2rem; background: #050608; border-top: 1px solid var(--glass-border); }
+        .footer-silo { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }
+        .footer-silo a { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.6rem 1.2rem; border: 1px solid var(--glass-border); transition: all 0.3s; border-radius: 50px; }
+        .footer-silo a:hover { border-color: var(--accent-gold); color: var(--bg-dark); background: var(--accent-gold); }
+        .tags-box { padding: 1.5rem; border: 1px dashed var(--glass-border); font-size: 0.8rem; margin: 3rem 0; opacity: 0.6; line-height: 1.8; border-radius: 8px; }
+        
+        /* Micro-JS Reveal Class */
+        .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            section { padding: 5rem 5%; }
+            .grid-2 { grid-template-columns: 1fr; gap: 3rem; }
+            .logo-text { font-size: 1.4rem; }
+        }
     </style>
 </head>
 <body>
 
-<header>
-    <img src="ahli-jasa-renovasi-rumah-surabaya-archikandi-design-project.webp" class="hero-bg" alt="Arkavia Construction Hero" loading="lazy">
-    <h1>AHLI <span class="gradient-text">RENOVASI RUMAH</span> SURABAYA</h1>
-    <p>Archikandi Design Project: RAB Transparan, Desain 3D, dan Konstruksi Presisi.</p>
-    <a href="https://wa.me/6285648614694" class="cta-btn">KONSULTASI GRATIS SEKARANG</a>
+<nav class="reveal active">
+    <a href="#" class="logo-text">Arkavia <span>Construction</span></a>
+    <div class="nav-links">
+        <a href="#layanan">Layanan</a>
+        <a href="#proses">Proses</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#paket">Paket</a>
+        <a href="#faq">FAQ</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80" class="hero-bg" alt="Interior Mewah Surabaya" loading="lazy">
+    <div class="hero-overlay"></div>
+    <div class="hero-content reveal">
+        <span class="subtitle">Premium Architecture & Interior</span>
+        <h1>Ahli Renovasi Rumah <i style="color: var(--accent-gold);">Surabaya</i></h1>
+        <p>Wujudkan mahakarya hunian yang merefleksikan identitas Anda. Kami hadir dengan RAB 100% transparan, pendampingan pra-desain, hingga serah terima kunci tanpa stres.</p>
+        <div style="margin-top: 2rem;">
+            <a href="https://wa.me/6285648614694" target="_blank" rel="noopener noreferrer" class="btn-aura">
+                Konsultasi Gratis
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
 </header>
 
-<section class="container">
-    <h2 style="text-align: center;">Layanan Kami</h2>
-    <div class="grid">
-        <div class="glass card"><img src="design-bangunan.webp" width="100%" alt="Design Bangunan"><h3>Design Bangunan</h3></div>
-        <div class="glass card"><img src="jasa-design-interior.webp" width="100%" alt="Jasa Design Interior"><h3>Jasa Design Interior</h3></div>
-        <div class="glass card"><img src="renovasi-konstruksi-bangunan-interior.webp" width="100%" alt="Renovasi"><h3>Renovasi & Konstruksi</h3></div>
-        <div class="glass card"><img src="jasa-perijinan-bangunan.webp" width="100%" alt="Jasa Perijinan"><h3>Jasa Perijinan</h3></div>
+<section class="marquee-section reveal">
+    <div class="marquee-track">
+        <img src="AL-USWAH-Sekolah-dasa-islam-terpadu.webp" alt="Klien Al Uswah" loading="lazy">
+        <img src="AMAL-SHOLEH.webp" alt="Klien Amal Sholeh" loading="lazy">
+        <img src="lawang-agung.webp" alt="Klien Lawang Agung" loading="lazy">
+        <img src="PT-KADAR-BARU-BERKAH.webp" alt="Klien PT Kadar" loading="lazy">
+        <img src="PT-PEMBANGKITAN-JAWA-BARAT.webp" alt="Klien PJB" loading="lazy">
+        <img src="Sekolah-Islam-Terpadu-Permata-Yayasan-Pendidikan-Islam-Permata-YPIP.webp" alt="Klien YPIP" loading="lazy">
+        <img src="UNIVERSITAS-BAHAUDIN-MUDHARY-MADURA.webp" alt="Klien Universitas Bahaudin" loading="lazy">
+        <img src="AL-USWAH-Sekolah-dasa-islam-terpadu.webp" alt="Klien Al Uswah" loading="lazy">
+        <img src="AMAL-SHOLEH.webp" alt="Klien Amal Sholeh" loading="lazy">
+        <img src="lawang-agung.webp" alt="Klien Lawang Agung" loading="lazy">
+        <img src="PT-KADAR-BARU-BERKAH.webp" alt="Klien PT Kadar" loading="lazy">
+        <img src="PT-PEMBANGKITAN-JAWA-BARAT.webp" alt="Klien PJB" loading="lazy">
+        <img src="Sekolah-Islam-Terpadu-Permata-Yayasan-Pendidikan-Islam-Permata-YPIP.webp" alt="Klien YPIP" loading="lazy">
+        <img src="UNIVERSITAS-BAHAUDIN-MUDHARY-MADURA.webp" alt="Klien Universitas Bahaudin" loading="lazy">
     </div>
 </section>
 
-<section class="container glass">
-    <h2>Visi & Misi</h2>
-    <p><strong>Visi:</strong> Menjadi kontraktor dan konsultan arsitektur paling tepercaya di Surabaya Raya, yang mentransformasi setiap struktur menjadi ruang hunian yang presisi dan estetis.</p>
-    <br>
-    <p><strong>Misi:</strong> Memberikan transparansi penuh dalam RAB, menggabungkan teknik sipil dengan inovasi desain, dan pendampingan bebas stres dari konsep hingga kunci di tangan.</p>
-</section>
-
-<section class="container">
-    <h2>FAQ</h2>
-    <div id="faq-list">
-        <!-- FAQ 1 -->
-        <div class="glass faq-item">
-            <h3>Apa perbedaan paket A hingga D? <button class="voice-trigger" onclick="speak('Perbedaan utama terletak pada kelengkapan dokumen teknis. Paket A untuk visual dasar, Paket D mencakup hingga animasi, perhitungan struktur, dan RKS.')">🔊</button></h3>
+<section id="layanan" class="container">
+    <div class="grid-2 reveal">
+        <div>
+            <span class="subtitle">Layanan Kami</span>
+            <h2>Ruang Bercerita,<br><i style="color: var(--accent-gold);">Dibangun Presisi.</i></h2>
+            <p>Lebih dari sekadar konstruksi, kami membentuk setiap lapisan ruang Anda dengan integritas struktural dan estetika modern yang presisi.</p>
         </div>
-        <!-- FAQ 2 -->
-        <div class="glass faq-item">
-            <h3>Apakah melayani luar kota? <button class="voice-trigger" onclick="speak('Ya, kami melayani wilayah satelit Surabaya seperti Sidoarjo hingga Jombang dengan standar kualitas yang sama.')">🔊</button></h3>
+    </div>
+    <div class="grid-4" style="margin-top: 4rem;">
+        <div class="layanan-card reveal">
+            <img src="design-bangunan.webp" alt="Design Bangunan" loading="lazy">
+            <h3>Design Bangunan</h3>
+            <p>Perancangan arsitektur fungsional dengan perhitungan struktur yang aman.</p>
         </div>
-        <!-- FAQ 3 -->
-        <div class="glass faq-item">
-            <h3>Berapa lama proses desain? <button class="voice-trigger" onclick="speak('Desain standar memakan waktu 2 hingga 4 minggu, tergantung pada tingkat kerumitan dan paket yang dipilih.')">🔊</button></h3>
+        <div class="layanan-card reveal">
+            <img src="jasa-design-interior.webp" alt="Jasa Design Interior" loading="lazy">
+            <h3>Jasa Design Interior</h3>
+            <p>Harmonisasi tata ruang, pencahayaan, dan material kelas premium.</p>
+        </div>
+        <div class="layanan-card reveal">
+            <img src="renovasi-konstruksi-bangunan-interior.webp" alt="Renovasi & Konstruksi Bangunan Interior" loading="lazy">
+            <h3>Renovasi & Konstruksi</h3>
+            <p>Eksekusi lapangan profesional dengan manajemen proyek yang ketat.</p>
+        </div>
+        <div class="layanan-card reveal">
+            <img src="jasa-perijinan-bangunan.webp" alt="Jasa Perijinan Bangunan" loading="lazy">
+            <h3>Jasa Perijinan</h3>
+            <p>Pengurusan dokumen legalitas (IMB/PBG) bebas hambatan birokrasi.</p>
         </div>
     </div>
 </section>
 
-<section class="container">
-    <h2>Paket Layanan</h2>
-    <div class="grid">
-        <div class="glass card"><h3>PAKET A</h3><p>Denah, Perspektif 3D, Konsultasi, 3x Revisi.</p></div>
-        <div class="glass card"><h3>PAKET B</h3><p>Paket A + Tampak & Potongan Bangunan.</p></div>
-        <div class="glass card"><h3>PAKET C</h3><p>Detail Arsitektur Lengkap, Listrik, RAB.</p></div>
-        <div class="glass card"><h3>PAKET D</h3><p>Paket C + Perhitungan Struktur, RKS, Animasi.</p></div>
+<section id="proses" style="background: var(--bg-surface);">
+    <div class="container grid-2">
+        <div class="reveal">
+            <a href="https://maps.google.com/maps?ll=-7.258584,112.765575&z=12&t=m&hl=en-US&gl=US&mapclient=embed&q=Jl.%20Pacar%20Kembang%20V%20No.33%20RT.009%2FRW.07%2C%20Pacar%20Kembang%20Kec.%20Tambaksari%20Surabaya%2C%20Jawa%20Timur%2060132" target="_blank" rel="noopener noreferrer" class="map-link">
+                <img src="peta-lokasi-archikandi-design-project.webp" alt="Peta Lokasi Archikandi Design Project Surabaya" loading="lazy">
+            </a>
+        </div>
+        <div class="reveal">
+            <span class="subtitle">Alur Kerja</span>
+            <h2>Konsultasikan Hunian<br>Impian Anda</h2>
+            <ul class="process-list">
+                <li>Konsultasi Awal (Free Consultation)</li>
+                <li>Survei Dan Analisis Lokasi</li>
+                <li>Penyusunan Konsep</li>
+                <li>Pra-Desain Rancangan</li>
+                <li>Pengembangan Desain Final</li>
+                <li>Dokumen Perijinan (Opsional)</li>
+                <li>Penyerahan Desain Final</li>
+                <li>Pendampingan Atau Pelaksanaan Konstruksi</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="portofolio" class="container">
+    <div class="reveal" style="text-align: center; margin-bottom: 5rem;">
+        <span class="subtitle">Our Portofolio</span>
+        <h2>Bukti Nyata Eksekusi Kami</h2>
+    </div>
+
+    <div class="project-block reveal">
+        <div class="project-header">
+            <h3>Masjid di Jombang</h3>
+            <span class="project-meta">Design & Build</span>
+        </div>
+        <div class="bento-grid grid-masjid">
+            <div class="bento-item item-1"><img src="portofolio-masjid-jombang.webp" alt="Masjid Jombang Utama" loading="lazy"></div>
+            <div class="bento-item item-2"><img src="portofolio-masjid-jombang-01.webp" alt="Masjid Jombang 1" loading="lazy"></div>
+            <div class="bento-item item-3"><img src="portofolio-masjid-jombang-02.webp" alt="Masjid Jombang 2" loading="lazy"></div>
+            <div class="bento-item item-4"><img src="portofolio-masjid-jombang-03.webp" alt="Masjid Jombang 3" loading="lazy"></div>
+            <div class="bento-item item-5"><img src="portofolio-masjid-jombang-04.webp" alt="Masjid Jombang 4" loading="lazy"></div>
+        </div>
+    </div>
+
+    <div class="project-block reveal">
+        <div class="project-header">
+            <h3>Ponpes Al-Habibah</h3>
+            <span class="project-meta">Architectural Design</span>
+        </div>
+        <div class="bento-grid grid-ponpes">
+            <div class="bento-item item-1"><img src="portofolio-PONPES-AL-HABIBAH.webp" alt="Ponpes Utama" loading="lazy"></div>
+            <div class="bento-item item-2"><img src="portofolio-PONPES-AL-HABIBAH-01.webp" alt="Ponpes 1" loading="lazy"></div>
+            <div class="bento-item item-3"><img src="portofolio-PONPES-AL-HABIBAH-02.webp" alt="Ponpes 2" loading="lazy"></div>
+            <div class="bento-item item-4"><img src="portofolio-PONPES-AL-HABIBAH-03.webp" alt="Ponpes 3" loading="lazy"></div>
+            <div class="bento-item item-5"><img src="portofolio-PONPES-AL-HABIBAH-04.webp" alt="Ponpes 4" loading="lazy"></div>
+        </div>
+    </div>
+
+    <div class="project-block reveal">
+        <div class="project-header">
+            <h3>Interior Rumah Mr. M (Sidoarjo)</h3>
+            <span class="project-meta">Interior Design // Project Start : 2021</span>
+        </div>
+        <div class="bento-grid grid-mrm">
+            <div class="bento-item item-1"><img src="Portofolio-Mr-M-sidoarjo.01.webp" alt="Mr M 1" loading="lazy"></div>
+            <div class="bento-item item-2"><img src="Portofolio-Mr-M-sidoarjo.02.webp" alt="Mr M 2" loading="lazy"></div>
+            <div class="bento-item item-3"><img src="Portofolio-Mr-M-sidoarjo.03.webp" alt="Mr M 3" loading="lazy"></div>
+            <div class="bento-item item-4"><img src="Portofolio-Mr-M-sidoarjo.04.webp" alt="Mr M 4" loading="lazy"></div>
+            <div class="bento-item item-5"><img src="Portofolio-Mr-M-sidoarjo.05.webp" alt="Mr M 5" loading="lazy"></div>
+        </div>
+    </div>
+
+    <div class="project-block reveal">
+        <div class="project-header">
+            <h3>Private House, Surabaya</h3>
+            <span class="project-meta">Design and Build // Project Start : 2021</span>
+        </div>
+        <div class="bento-grid grid-private">
+            <div class="bento-item item-1"><img src="PRIVATE-HOUSE-SURABAYA.webp" alt="Private House Utama" loading="lazy"></div>
+            <div class="bento-item item-2"><img src="PRIVATE-HOUSE-SURABAYA-01.webp" alt="Private House 1" loading="lazy"></div>
+            <div class="bento-item item-3"><img src="PRIVATE-HOUSE-SURABAYA-02.webp" alt="Private House 2" loading="lazy"></div>
+            <div class="bento-item item-4"><img src="PRIVATE-HOUSE-SURABAYA-03.webp" alt="Private House 3" loading="lazy"></div>
+        </div>
+    </div>
+
+    <div class="project-block reveal">
+        <div class="project-header">
+            <h3>Rumah Ibu Lina</h3>
+            <span class="project-meta">Architectural Design // Project Start : 2021</span>
+        </div>
+        <div class="bento-grid grid-lina">
+            <div class="bento-item item-1"><img src="RUMAH-IBU-LINA-01.webp" alt="Rumah Ibu Lina 1" loading="lazy"></div>
+            <div class="bento-item item-2"><img src="RUMAH-IBU-LINA-02.webp" alt="Rumah Ibu Lina 2" loading="lazy"></div>
+        </div>
+    </div>
+</section>
+
+<section id="paket" style="background: var(--bg-surface);">
+    <div class="container">
+        <div class="reveal" style="text-align: center; margin-bottom: 5rem;">
+            <span class="subtitle">Investasi</span>
+            <h2>Pilihan Paket Transparan</h2>
+        </div>
+        <div class="grid-4">
+            <div class="aura-card reveal">
+                <h3 class="pkg-title">Paket A</h3>
+                <span style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted);">Basic</span>
+                <ul class="pkg-list">
+                    <li>Gambar situasi (Layout/siteplan)</li>
+                    <li>Denah</li>
+                    <li>Perspektif 3 Dimensi</li>
+                    <li>Konsultasi Arsitek</li>
+                    <li>Max. 3x Revisi Minor</li>
+                </ul>
+                <div style="text-align: center;">
+                    <a href="https://wa.me/6285648614694" class="btn-aura" style="width: 100%;">Hubungi Kami</a>
+                </div>
+            </div>
+            
+            <div class="aura-card reveal">
+                <h3 class="pkg-title">Paket B</h3>
+                <span style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted);">Standard</span>
+                <ul class="pkg-list">
+                    <li>Gambar Situasi (Layout/siteplan)</li>
+                    <li>Denah</li>
+                    <li>Perspektif 3 Dimensi</li>
+                    <li>Tampak Bangunan</li>
+                    <li>Potongan Bangunan</li>
+                    <li>Konsultasi Arsitek</li>
+                    <li>Max. 3x Revisi Minor</li>
+                </ul>
+                <div style="text-align: center;">
+                    <a href="https://wa.me/6285648614694" class="btn-aura" style="width: 100%;">Hubungi Kami</a>
+                </div>
+            </div>
+            
+            <div class="aura-card reveal" style="border-color: rgba(220, 182, 111, 0.4);">
+                <h3 class="pkg-title" style="color: var(--accent-gold);">Paket C</h3>
+                <span style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-main);">Premium</span>
+                <ul class="pkg-list">
+                    <li>Gambar Situasi (Layout/siteplan)</li>
+                    <li>Denah</li>
+                    <li>Perspektif 3 Dimensi</li>
+                    <li>Tampak Bangunan</li>
+                    <li>Potongan Bangunan</li>
+                    <li>Detail Atap</li>
+                    <li>Detail Kusen</li>
+                    <li>Detail Lantai</li>
+                    <li>Detail Pondasi</li>
+                    <li>Detail Kolom & Balok</li>
+                    <li>Detail Saluran Air Bersih</li>
+                    <li>Detail Saluran Air Kotor</li>
+                    <li>Detail Kelistrikan</li>
+                    <li style="color: var(--accent-gold);">RAB</li>
+                    <li>Konsultasi Arsitek</li>
+                    <li>Max. 3x Revisi Minor</li>
+                </ul>
+                <div style="text-align: center;">
+                    <a href="https://wa.me/6285648614694" class="btn-aura" style="width: 100%; background: var(--text-main); color: var(--bg-dark);">Hubungi Kami</a>
+                </div>
+            </div>
+            
+            <div class="aura-card reveal">
+                <h3 class="pkg-title">Paket D</h3>
+                <span style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted);">Executive</span>
+                <ul class="pkg-list">
+                    <li>Gambar Situasi (Layout/siteplan)</li>
+                    <li>Denah</li>
+                    <li>Perspektif 3 Dimensi</li>
+                    <li>Tampak Bangunan</li>
+                    <li>Potongan Bangunan</li>
+                    <li>Detail Atap</li>
+                    <li>Detail Kusen</li>
+                    <li>Detail Lantai</li>
+                    <li>Detail Pondasi</li>
+                    <li>Detail Kolom & Balok</li>
+                    <li>Detail Saluran Air Bersih</li>
+                    <li>Detail Saluran Air Kotor</li>
+                    <li>Detail Kelistrikan</li>
+                    <li>Perhitungan Struktur</li>
+                    <li>Rencana Kerja Dan Syarat-syarat (RKS)</li>
+                    <li style="color: var(--accent-gold);">RAB</li>
+                    <li style="color: var(--accent-gold);">Animasi Bangunan</li>
+                    <li>Konsultasi Arsitek</li>
+                    <li>Max. 3x Revisi Minor</li>
+                </ul>
+                <div style="text-align: center;">
+                    <a href="https://wa.me/6285648614694" class="btn-aura" style="width: 100%;">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="faq" class="container">
+    <div class="grid-2">
+        <div class="reveal">
+            <span class="subtitle">Audible Intelligence</span>
+            <h2>Pertanyaan Seputar <br>Layanan Kami</h2>
+            <p>Tekan ikon suara untuk mendengarkan jawaban langsung dari asisten virtual kami terkait proses renovasi dan arsitektur.</p>
+        </div>
+        <div class="reveal">
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>Apa perbedaan utama antara Paket A hingga D?</h3>
+                    <button class="voice-btn" data-text="Perbedaannya terletak pada kelengkapan dokumen teknis. Paket A fokus pada visual dasar, sedangkan Paket C dan D mencakup detail teknis struktural, kelistrikan, RAB, hingga animasi 3 Dimensi untuk kebutuhan konstruksi yang lebih kompleks." aria-label="Putar Suara">
+                        <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+                    </button>
+                </div>
+                <p>Perbedaannya pada kelengkapan dokumen teknis. Paket A untuk visual dasar, Paket C & D mencakup detail struktural, RAB, hingga animasi 3D.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>Apakah melayani jasa renovasi di luar Surabaya?</h3>
+                    <button class="voice-btn" data-text="Ya, kami melayani wilayah satelit di sekitar Surabaya. Kami telah berpengalaman mengerjakan proyek mulai dari wilayah Sidoarjo, Jombang, hingga area lainnya dengan standar kualitas yang sama." aria-label="Putar Suara">
+                        <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+                    </button>
+                </div>
+                <p>Ya, kami melayani wilayah satelit seperti Sidoarjo dan Jombang dengan standar kualitas tinggi.</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>Bagaimana menjamin RAB transparan agar tidak bengkak?</h3>
+                    <button class="voice-btn" data-text="Kami menerapkan sistem harga pasti atau fixed-price berdasarkan item pekerjaan yang disetujui di awal. Setiap perubahan material di lapangan akan dikomunikasikan tertulis melalui Addendum agar tidak ada biaya gaib." aria-label="Putar Suara">
+                        <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+                    </button>
+                </div>
+                <p>Kami menerapkan sistem *fixed-price*. Perubahan material/volume dikomunikasikan tertulis melalui Addendum.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>Apakah dibantu mengurus dokumen perizinan (IMB/PBG)?</h3>
+                    <button class="voice-btn" data-text="Tentu. Kami menyediakan layanan tambahan penyusunan dokumen perizinan agar Anda tidak perlu pusing dengan birokrasi pemerintah setempat." aria-label="Putar Suara">
+                        <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+                    </button>
+                </div>
+                <p>Tentu, kami menyediakan layanan tambahan pengurusan legalitas bangunan bebas hambatan.</p>
+            </div>
+        </div>
     </div>
 </section>
 
 <footer>
-    <p><strong>Archikandi Design Project</strong></p>
-    <p>Jl. Pacarkembang 5/33, Surabaya</p>
-    <div class="footer-links">
-        <a href="https://dongkrakusaha.com/layanan-jasa-renovasi-rumah-tambaksari-surabaya">Jasa Renovasi</a>
-        <a href="https://dongkrakusaha.com/layanan-ahli-desain-interior-mewah-gubeng-surabaya">Interior</a>
+    <div class="container reveal">
+        <div class="grid-2" style="align-items: flex-start; text-align: left; gap: 4rem;">
+            <div>
+                <a href="https://ahlirenovasirumah.com" class="logo-text" style="display: inline-block; margin-bottom: 1.5rem;">Arkavia <span>Construction</span></a>
+                <p style="margin-top: 1rem; color: var(--text-muted);">Jl. Pacarkembang V No.33<br>RT.009/RW.07, Pacar Kembang, Kec. Tambaksari<br>Surabaya, Jawa Timur 60132</p>
+                <p style="margin-top: 1rem; color: var(--text-muted);">📞 (+62) 856 4861 4694<br>✉️ archikandi@gmail.com<br>🌐 <a href="https://ahlirenovasirumah.com" style="color: var(--accent-gold);">ahlirenovasirumah.com</a></p>
+                <div style="margin-top: 1.5rem; color: var(--text-muted); font-size: 0.9rem;">
+                    <strong style="color: var(--text-main);">Jam Buka:</strong><br>Senin – Jumat: 08.00 – 17.00<br>Sabtu: 08.00 – 12.00
+                </div>
+            </div>
+            <div>
+                <h4 style="font-family: var(--font-sans); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-gold); margin-bottom: 1.5rem;">Layanan & Area Cakupan</h4>
+                <div class="footer-silo">
+                    <a href="https://dongkrakusaha.com/layanan-jasa-renovasi-rumah-tambaksari-surabaya">Jasa Renovasi Tambaksari</a>
+                    <a href="https://dongkrakusaha.com/layanan-spesialis-renovasi-rumah-3d-tambaksari">Spesialis Renovasi 3D</a>
+                    <a href="https://dongkrakusaha.com/layanan-ahli-desain-interior-mewah-gubeng-surabaya">Ahli Interior Gubeng</a>
+                    <a href="https://dongkrakusaha.com/layanan-kontraktor-bangun-rumah-baru-sukolilo">Kontraktor Bangun Sukolilo</a>
+                    <a href="https://dongkrakusaha.com/layanan-jasa-arsitek-renovasi-rumah-mulyorejo">Arsitek Mulyorejo</a>
+                    <a href="https://dongkrakusaha.com/layanan-pemborong-renovasi-perluasan-rumah-rungkut">Pemborong Rungkut</a>
+                    <a href="https://dongkrakusaha.com/layanan-estimasi-biaya-renovasi-rumah-sidoarjo">Biaya Renovasi Sidoarjo</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tags-box">
+            <strong style="color: var(--accent-gold);">Pencarian Terkait:</strong> biaya perbaikan rumah surabaya timur, tukang bangunan terpercaya, desain arsitektur modern, jasa arsitek tambaksari, renovasi fasad rumah terkini, konsultan arsitektur mulyorejo, eksterior rumah industrial modern, jasa sipil sesuai budget, pengurusan IMB surabaya, kontraktor sipil sidoarjo.
+        </div>
+
+        <div style="text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 2rem; color: var(--text-muted); font-size: 0.85rem;">
+            <p>© 2026 Arkavia Construction (Archikandi Design Project). All Rights Reserved.</p>
+            <p style="margin-top: 0.5rem;">SEO & Web Architecture by <a href="https://ciledugpromo.biz.id" rel="nofollow noopener noreferrer" style="color: var(--text-main);">ciledugpromo.biz.id</a></p>
+        </div>
     </div>
-    <p style="margin-top:20px; font-size: 0.8rem;">SEO & Web Architecture by <a href="https://dongkrakusaha.com">dongkrakusaha.com</a></p>
 </footer>
 
-<a href="https://wa.me/6285648614694" class="sticky-wa">💬</a>
+<a href="https://wa.me/6285648614694" target="_blank" rel="noopener noreferrer" class="cta-wa" aria-label="Konsultasi WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M12.031 21.5c-1.304 0-2.57-.34-3.69-1l-.26-.16-2.74.72.73-2.67-.17-.28c-.68-1.12-1.04-2.42-1.04-3.75 0-3.9 3.17-7.07 7.07-7.07 3.9 0 7.07 3.17 7.07 7.07s-3.17 7.07-7.07 7.07zm0-16.14c-4.99 0-9.05 4.06-9.05 9.05 0 1.6.42 3.16 1.22 4.54l-1.3 4.74 4.85-1.27c1.33.73 2.82 1.12 4.38 1.12 4.99 0 9.05-4.06 9.05-9.05 0-4.99-4.06-9.05-9.05-9.05zm4.97 12.35c-.27-.81-1.61-1.36-1.61-1.36-.23-.12-.49-.07-.65.1l-.87 1.07c-.17.21-.46.26-.71.13-1.47-.78-2.64-1.95-3.41-3.42-.12-.24-.07-.53.14-.7l1.08-.88c.17-.16.22-.42.1-.65 0 0-.55-1.34-1.36-1.61-.31-.1-.65.01-.81.28l-.66 1.1c-.24.4-.3 1.03-.02 1.57.86 1.7 2.1 3.2 3.65 4.3 1.25.88 2.62 1.48 3.94 1.54.54.03 1.16-.03 1.56-.27l1.1-.67c.27-.16.38-.5.28-.8z"/></svg>
+</a>
 
 <script>
-    function speak(text) {
-        window.speechSynthesis.cancel();
-        const msg = new SpeechSynthesisUtterance(text);
-        msg.lang = 'id-ID';
-        window.speechSynthesis.speak(msg);
-    }
-    
-    // Intersection Observer for Reveal
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) entry.target.style.opacity = 1;
-        });
+  // Intersection Observer Animasi (Zero-Bloat)
+  const revealElements = document.querySelectorAll('.reveal');
+  const observerOptions = { threshold: 0.05, rootMargin: "0px 0px -40px 0px" };
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+        observer.unobserve(entry.target);
+      }
     });
-    document.querySelectorAll('.card, .glass').forEach(el => {
-        el.style.opacity = 0;
-        el.style.transition = 'opacity 1s';
-        observer.observe(el);
-    });
-</script>
+  }, observerOptions);
+  revealElements.forEach(el => observer.observe(el));
 
-<!-- Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Archikandi Design Project",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jl. Pacarkembang 5/33",
-    "addressLocality": "Surabaya",
-    "addressRegion": "Jawa Timur"
-  },
-  "telephone": "+6285648614694",
-  "url": "https://ahli-renovasi-rumah-surabaya.vercel.app",
-  "sameAs": ["https://dongkrakusaha.com"]
-}
+  // Voice SEO API Client-Side
+  const synth = window.speechSynthesis;
+  document.querySelectorAll('.voice-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      document.querySelectorAll('.voice-btn').forEach(b => b.classList.remove('playing'));
+      
+      if (synth.speaking) { synth.cancel(); }
+      
+      const textToSpeak = btn.getAttribute('data-text');
+      const utterance = new SpeechSynthesisUtterance(textToSpeak);
+      utterance.lang = 'id-ID';
+      
+      btn.classList.add('playing');
+      
+      utterance.onend = () => { btn.classList.remove('playing'); };
+      utterance.onerror = () => { btn.classList.remove('playing'); };
+      
+      synth.speak(utterance);
+    });
+  });
+
+  // Nav Blur Scroll Effect
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+          nav.style.background = 'rgba(7, 8, 10, 0.98)';
+          nav.style.padding = '1rem 6%';
+      } else {
+          nav.style.background = 'rgba(7, 8, 10, 0.85)';
+          nav.style.padding = '1.5rem 6%';
+      }
+  });
 </script>
 </body>
 </html>
